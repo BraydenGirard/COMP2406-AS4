@@ -90,7 +90,15 @@ function buildSongList() {
 // builds the object for rendering the detail table jade view 
 function buildDetailPage() {
 	
-	var object = {title: currentSong.title, style:currentSong.style, composer:currentSong.composer, key:currentSong.key };
+	var lines = [], size = 4;
+	var bars = currentSong.bars;
+
+	while (bars.length > 0)
+    	lines.push(bars.splice(0, size));
+	
+	console.log(lines[1]);
+
+	var object = {title: currentSong.title, style:currentSong.style, composer:currentSong.composer, key:currentSong.key, bars: lines[1] };
 
 	return object;
 }
