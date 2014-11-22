@@ -257,13 +257,15 @@ function parse(fileDataString) {
             else {
                 console.log("songs collection dropped.");
             }
+			//console.log(songsArray);
             songsCollection.insert(songsArray, function(err, theSongs) {
                 if (err) {
+					console.log("DB ERROR");
                     throw err;
                 }
+				db.close();
+				console.log("Songs stored succesfully in DB");
             });
-			
-            db.close();
         });
     });
 }
