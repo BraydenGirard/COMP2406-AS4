@@ -149,7 +149,7 @@ function getFirstDozenSongs(res) {
 	
         var songsCollection = db.collection('songs');
 	
-		songsCollection.find().toArray(function(err, queryResults){
+		songsCollection.find().limit(12).toArray(function(err, queryResults){
 			if(err) {
 		    	throw err;
 		    }
@@ -157,11 +157,7 @@ function getFirstDozenSongs(res) {
 			console.log("Query results are: ");
 			console.log(queryResults); // output all records
 			
-			if(queryResults.length > 12){
-				searchResults = queryResults.slice(0,11);
-				res.redirect('/songs');
-			}
-			else if(queryResults.length === 0){	
+			if(queryResults.length === 0){	
 				searchError = "empty-db";
 				res.redirect('/');	
 			} 
@@ -188,7 +184,7 @@ function searchForSongs(keywords, res) {
 
         var songsCollection = db.collection('songs');
 	
-		songsCollection.find(buildSearchQuery(keywords)).toArray(function(err, queryResults){
+		songsCollection.find(buildSearchQuery(keywords)).limit(12).toArray(function(err, queryResults){
 			if(err) {
 		    	throw err;
 		    }
@@ -196,12 +192,8 @@ function searchForSongs(keywords, res) {
 			console.log("Query results are: ");
 			console.log(queryResults); // output all records
 			
-			if(queryResults.length > 12){
-				searchResults = queryResults.slice(0,11);
-			}
-			else {
-				searchResults = queryResults;
-			}
+			searchResults = queryResults;
+
 			res.redirect('/songs');
 			db.close();
 		});
