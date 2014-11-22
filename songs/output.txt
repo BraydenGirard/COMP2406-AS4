@@ -1,0 +1,646 @@
+{
+  "songs": [
+    {
+      "title": "26-2",
+      "composer": "Coltrane John",
+      "style": "Medium Up Swing",
+      "key": "F",
+      "bars": [
+        {
+          "leftDoubleBarLine": "true",
+          "rehearsalLetter": "A",
+          "time": "4/4",
+          "chords": "Fmaj7  / Ab7"
+        },
+        {
+          "chords": "Dbmaj7  / E7"
+        },
+        {
+          "chords": "Amaj7  / C7"
+        },
+        {
+          "chords": "Cm7  / F7"
+        },
+        {
+          "chords": "Bbmaj7  / Db7"
+        },
+        {
+          "chords": "Gbmaj7  / A7"
+        },
+        {
+          "chords": "Dm7  / G7"
+        },
+        {
+          "chords": "Gm7  / C7",
+          "rightDoubleBarLine": "true"
+        },
+        {
+          "leftDoubleBarLine": "true",
+          "rehearsalLetter": "A",
+          "chords": "Fmaj7  / Ab7"
+        },
+        {
+          "chords": "Dbmaj7  / E7"
+        },
+        {
+          "chords": "Amaj7  / C7"
+        },
+        {
+          "chords": "Cm7  / F7"
+        },
+        {
+          "chords": "Bbmaj7  / Ab7"
+        },
+        {
+          "chords": "Dbmaj7  / E7"
+        },
+        {
+          "chords": "Amaj7  / C7"
+        },
+        {
+          "chords": "Fmaj7",
+          "rightDoubleBarLine": "true"
+        },
+        {
+          "leftDoubleBarLine": "true",
+          "rehearsalLetter": "B",
+          "chords": "Cm7  / F7"
+        },
+        {
+          "chords": "Em7  / A7"
+        },
+        {
+          "chords": "Dmaj7  / F7"
+        },
+        {
+          "chords": "Bbmaj7"
+        },
+        {
+          "chords": "Ebm7"
+        },
+        {
+          "chords": "Ab7"
+        },
+        {
+          "chords": "Dbmaj7"
+        },
+        {
+          "chords": "Gm7  / C7",
+          "rightDoubleBarLine": "true"
+        },
+        {
+          "leftDoubleBarLine": "true",
+          "rehearsalLetter": "A",
+          "chords": "Fmaj7  / Ab7"
+        },
+        {
+          "chords": "Dbmaj7  / E7"
+        },
+        {
+          "chords": "Amaj7  / C7"
+        },
+        {
+          "chords": "Cm7  / F7"
+        },
+        {
+          "chords": "Bbmaj7  / Ab7"
+        },
+        {
+          "chords": "Dbmaj7  / E7"
+        },
+        {
+          "chords": "Amaj7  / C7"
+        },
+        {
+          "chords": "Fmaj7",
+          "finalBarLine": "true"
+        }
+      ],
+      "songData": "",
+      "rawSongData": "*A[T44F^7 Ab7  |Db^7 E7  |A^7 C7  |C-7 F7  |Bb^7 Db7  |Gb^7 A7  |D-7 G7  |G-7 C7 ]*A[F^7 Ab7  |Db^7 E7  |A^7 C7  |C-7 F7  |Bb^7 Ab7  |Db^7 E7  |A^7 C7  |F^7   ]*B[C-7 F7  |E-7 A7  |D^7 F7  |Bb^7    |Eb-7    |Ab7    |Db^7    |G-7 C7 ]*A[F^7 Ab7  |Db^7 E7  |A^7 C7  |C-7 F7  |Bb^7 Ab7  |Db^7 E7  |A^7 C7  |F^7   Z"
+    },
+    {
+      "title": "500 Miles High",
+      "composer": "Corea Chick",
+      "style": "Bossa Nova",
+      "key": "E-",
+      "bars": [
+        {
+          "chords": ""
+        },
+        {
+          "time": "4/4",
+          "chords": "Em7"
+        },
+        {
+          "chords": "%"
+        },
+        {
+          "chords": "Gm7"
+        },
+        {
+          "chords": "%"
+        },
+        {
+          "chords": "Bbmaj7"
+        },
+        {
+          "chords": "%"
+        },
+        {
+          "chords": "Bh7"
+        },
+        {
+          "chords": "E7#9"
+        },
+        {
+          "chords": "Am7"
+        },
+        {
+          "chords": "%"
+        },
+        {
+          "chords": "F#h7"
+        },
+        {
+          "chords": "%"
+        },
+        {
+          "chords": "Fm7"
+        },
+        {
+          "chords": "% @"
+        },
+        {
+          "chords": "Cm7"
+        },
+        {
+          "chords": "%"
+        },
+        {
+          "chords": "B7#9"
+        },
+        {
+          "chords": "%",
+          "finalBarLine": "true"
+        },
+        {
+          "chords": ""
+        },
+        {
+          "chords": "@ / Cm7"
+        },
+        {
+          "chords": "%"
+        },
+        {
+          "chords": "Abmaj7"
+        },
+        {
+          "chords": "%",
+          "rightRepeat": "true"
+        }
+      ],
+      "songData": "",
+      "rawSongData": "[T44E-7    | x   |G-7    | x   |Bb^7    | x   |Bh7    |E7#9    |A-7    | x   |F#h7    | x   |F-7    | x Q  |C-7    | x   |B7#9    | x  Z        Y{QC-7    | x   |Ab^7    | x  }"
+    },
+    {
+      "title": "502 Blues",
+      "composer": "Rowles Jimmy",
+      "style": "Waltz",
+      "key": "A-",
+      "bars": [
+        {
+          "leftRepeat": "true",
+          "time": "3/4",
+          "chords": "Am7"
+        },
+        {
+          "chords": "Dbmaj7"
+        },
+        {
+          "chords": "Bh7"
+        },
+        {
+          "chords": "E7#9"
+        },
+        {
+          "chords": "Am7"
+        },
+        {
+          "chords": "Dbmaj7"
+        },
+        {
+          "chords": "Bh7"
+        },
+        {
+          "chords": "E7#9"
+        },
+        {
+          "chords": "Cm7"
+        },
+        {
+          "chords": "F7b9"
+        },
+        {
+          "chords": "Bbmaj7"
+        },
+        {
+          "chords": "Abm7  / Db7"
+        },
+        {
+          "chords": "N1 / F#h7"
+        },
+        {
+          "chords": "B7b9"
+        },
+        {
+          "chords": "Emaj7#5"
+        },
+        {
+          "chords": "Emaj7#5  / E7",
+          "rightRepeat": "true"
+        },
+        {
+          "chords": "/ N2 / F#h7"
+        },
+        {
+          "chords": "B7b9"
+        },
+        {
+          "chords": "Em7"
+        },
+        {
+          "chords": "%",
+          "finalBarLine": "true"
+        }
+      ],
+      "songData": "",
+      "rawSongData": "{T34A-7    |Db^7    |Bh7    |E7#9    |A-7    |Db^7    |Bh7    |E7#9    |C-7    |F7b9    |Bb^7    |Ab-7 Db7  |N1F#h7    |B7b9    |E^7#5    |E^7#5 E7 } |N2F#h7    |B7b9    |E-7    | x  Z"
+    },
+    {
+      "title": "52nd Street Theme",
+      "composer": "Monk Thelonious",
+      "style": "Up Tempo Swing",
+      "key": "C",
+      "bars": [
+        {
+          "chords": ""
+        },
+        {
+          "rehearsalLetter": "A",
+          "time": "4/4",
+          "chords": "C  / Am7"
+        },
+        {
+          "chords": "Dm7  / G7"
+        },
+        {
+          "chords": "C  / Am7"
+        },
+        {
+          "chords": "Dm7  / G7"
+        },
+        {
+          "chords": "C  / Am7"
+        },
+        {
+          "chords": "Dm7  / G7"
+        },
+        {
+          "chords": "C  / G7"
+        },
+        {
+          "chords": "C",
+          "rightRepeat": "true"
+        },
+        {
+          "leftDoubleBarLine": "true",
+          "rehearsalLetter": "B",
+          "chords": "C7,"
+        },
+        {
+          "chords": "%"
+        },
+        {
+          "chords": "F6"
+        },
+        {
+          "chords": "%"
+        },
+        {
+          "chords": "D7,"
+        },
+        {
+          "chords": "%"
+        },
+        {
+          "chords": "G7"
+        },
+        {
+          "chords": "%",
+          "rightDoubleBarLine": "true"
+        },
+        {
+          "leftDoubleBarLine": "true",
+          "rehearsalLetter": "A",
+          "chords": "C,  / Am7"
+        },
+        {
+          "chords": "Dm7  / G7"
+        },
+        {
+          "chords": "C  / Am7"
+        },
+        {
+          "chords": "Dm7  / G7"
+        },
+        {
+          "chords": "C  / Am7"
+        },
+        {
+          "chords": "Dm7  / G7"
+        },
+        {
+          "chords": "C  / G7"
+        },
+        {
+          "chords": "C",
+          "finalBarLine": "true"
+        }
+      ],
+      "songData": " ",
+      "rawSongData": "{*AT44C A-7  |D-7 G7  |C A-7  |D-7 G7  |C A-7  |D-7 G7  |C G7  |C   }[*BC7,    | x   |F6    | x   |D7,    | x   |G7    | x  ][*AC, A-7  |D-7 G7  |C A-7  |D-7 G7  |C A-7  |D-7 G7  |C G7  |C   Z "
+    },
+    {
+      "title": "9.20 Special",
+      "composer": "Warren Earl",
+      "style": "Medium Swing",
+      "key": "C",
+      "bars": [
+        {
+          "chords": ""
+        },
+        {
+          "rehearsalLetter": "A",
+          "time": "4/4",
+          "chords": "C9,"
+        },
+        {
+          "chords": "Ebm6,"
+        },
+        {
+          "chords": "C9,"
+        },
+        {
+          "chords": "Ebm6"
+        },
+        {
+          "chords": "Bb,"
+        },
+        {
+          "chords": "Bb7, / A7, / Ab7, / G7"
+        },
+        {
+          "chords": "N1 / C9,  / F#o7,"
+        },
+        {
+          "chords": "C9,  / Ab7, / G7",
+          "rightRepeat": "true"
+        },
+        {
+          "chords": "/ N2 / C9,  / F#o7"
+        },
+        {
+          "chords": "C9,  / F7, / Bb",
+          "rightDoubleBarLine": "true"
+        },
+        {
+          "leftDoubleBarLine": "true",
+          "rehearsalLetter": "B",
+          "chords": "Bb,"
+        },
+        {
+          "chords": "Eb,  / Eb6"
+        },
+        {
+          "chords": "Eb6,"
+        },
+        {
+          "chords": "%"
+        },
+        {
+          "chords": "G9,"
+        },
+        {
+          "chords": "F,  / F6,"
+        },
+        {
+          "chords": "F9,"
+        },
+        {
+          "chords": "/ F7",
+          "rightDoubleBarLine": "true"
+        },
+        {
+          "leftDoubleBarLine": "true",
+          "rehearsalLetter": "A",
+          "chords": "C9,"
+        },
+        {
+          "chords": "Ebm6,"
+        },
+        {
+          "chords": "C9,"
+        },
+        {
+          "chords": "Ebm6,"
+        },
+        {
+          "chords": "Bb,"
+        },
+        {
+          "chords": "Bb7, / A7, / Ab7, / G7"
+        },
+        {
+          "chords": "C9,  / F#o7 ,"
+        },
+        {
+          "chords": "C6, / F7, / Bb, / D9",
+          "finalBarLine": "true"
+        }
+      ],
+      "songData": " ",
+      "rawSongData": "{*AT44C9,    |Eb-6,    |C9,    |Eb-6    |Bb,    |sBb7,A7,Ab7,G7 |N1lC9, F#o7,  |C9, sAb7,G7}         |N2lC9, F#o7  |lC9, sF7,Bb][*BlBb,    |Eb, Eb6  |Eb6,    | x   |G9,    |F, F6,  |F9,    |  F7 ][*AC9,    |Eb-6,    |C9,    |Eb-6,    |Bb,    |sBb7,A7,Ab7,G7 |lC9, F#o7 , |sC6,F7,Bb,D9Z "
+    },
+    {
+      "title": "A Felicidade",
+      "composer": "Jobim Antonio-Carlos",
+      "style": "Bossa Nova",
+      "key": "A-",
+      "bars": [
+        {
+          "rehearsalLetter": "A",
+          "chords": ""
+        },
+        {
+          "time": "4/4",
+          "chords": "Am7( / Cmaj7)"
+        },
+        {
+          "chords": "%"
+        },
+        {
+          "chords": "Cmaj7"
+        },
+        {
+          "chords": "%"
+        },
+        {
+          "chords": "Em7"
+        },
+        {
+          "chords": "B7b9"
+        },
+        {
+          "chords": "Em7 <( / Repeat  / Optiona)> / A7"
+        },
+        {
+          "chords": "Dm7  / G7",
+          "rightRepeat": "true"
+        },
+        {
+          "leftDoubleBarLine": "true",
+          "rehearsalLetter": "B",
+          "chords": "Cmaj7"
+        },
+        {
+          "chords": "%"
+        },
+        {
+          "chords": "Bh7"
+        },
+        {
+          "chords": "E7b9"
+        },
+        {
+          "chords": "Am7"
+        },
+        {
+          "chords": "% ( / Abm7)"
+        },
+        {
+          "chords": "Gm7"
+        },
+        {
+          "chords": "C7"
+        },
+        {
+          "chords": "Fmaj7"
+        },
+        {
+          "chords": "Dm7"
+        },
+        {
+          "chords": "Am7"
+        },
+        {
+          "chords": "D7"
+        },
+        {
+          "chords": "Am7"
+        },
+        {
+          "chords": "Bh7  / E7b9"
+        },
+        {
+          "chords": "Am7"
+        },
+        {
+          "chords": "G7",
+          "rightDoubleBarLine": "true"
+        },
+        {
+          "leftDoubleBarLine": "true",
+          "rehearsalLetter": "C",
+          "chords": "Cmaj7"
+        },
+        {
+          "chords": "F7"
+        },
+        {
+          "chords": "Cmaj7"
+        },
+        {
+          "chords": "%"
+        },
+        {
+          "chords": "Gm7"
+        },
+        {
+          "chords": "C7"
+        },
+        {
+          "chords": "Fmaj7"
+        },
+        {
+          "chords": "%"
+        },
+        {
+          "chords": "Dm7"
+        },
+        {
+          "chords": "G7"
+        },
+        {
+          "chords": "Cmaj7"
+        },
+        {
+          "chords": "%"
+        },
+        {
+          "chords": "F#h7"
+        },
+        {
+          "chords": "B7b9"
+        },
+        {
+          "chords": "Em7, / A7,"
+        },
+        {
+          "chords": "Dm7, / G7,",
+          "rightDoubleBarLine": "true"
+        },
+        {
+          "leftDoubleBarLine": "true",
+          "rehearsalLetter": "D",
+          "chords": "Am7"
+        },
+        {
+          "chords": "Am7/ / G"
+        },
+        {
+          "chords": "D7/ / F#"
+        },
+        {
+          "chords": "Dm7/ / F"
+        },
+        {
+          "chords": "Am7"
+        },
+        {
+          "chords": "Bh7  / E7b9"
+        },
+        {
+          "chords": "Am7"
+        },
+        {
+          "chords": "%",
+          "finalBarLine": "true"
+        }
+      ],
+      "rawSongData": "*A{T44A-7(C^7)    | x   |C^7    | x   |E-7    |B7b9    |E-7 <(Repeat Optional)>A7  |D-7 G7 }[*BC^7    | x   |Bh7    |E7b9    |A-7    | x (Ab-7)  |G-7    |C7    |F^7    |D-7    |A-7    |D7    |A-7    |Bh7 E7b9  |A-7    |G7   ]*C[C^7  |F7  |C^7  |x  |G-7  |C7  |F^7  |x  |D-7  |G7  |C^7  |x  |F#h7  |B7b9  |sE-7,A7, |D-7,G7,]*D[lA-7    |A-7/G    |D7/F#    |D-7/F    |A-7    |Bh7 E7b9  |A-7    | x  Z",
+      "songData": ""
+    }
+  ]
+}

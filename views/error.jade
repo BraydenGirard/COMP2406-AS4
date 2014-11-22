@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  h1 Error
+  - if(error)
+    div.alert-error #{error}
+  p An Internal Server Error Occured

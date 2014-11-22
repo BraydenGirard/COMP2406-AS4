@@ -1,0 +1,78 @@
+extends tablelayout
+
+block content
+  h1 Search Results
+  p Results for: #{keywords}
+  ul
+    - if(result1)
+      li 
+        form(action="/detail", method="post")
+          div.control-group.input-append
+              input(type="hidden", name="title", value=result1)
+          button(type="submit") #{result1}
+    - if(result2)
+      li
+        form(action="/detail", method="post")
+          div.control-group.input-append
+              input(type="hidden", name="title", value=result2)
+          button(type="submit") #{result2}
+    - if(result3)
+      li 
+        form(action="/detail", method="post")
+          div.control-group.input-append
+              input(type="hidden", name="title", value=result3)
+          button(type="submit") #{result3}
+    - if(result4)
+      li
+        form(action="/detail", method="post")
+          div.control-group.input-append
+              input(type="hidden", name="title", value=result4)
+          button(type="submit") #{result4}
+    - if(result5)
+      li
+        form(action="/detail", method="post")
+          div.control-group.input-append
+              input(type="hidden", name="title", value=result5)
+          button(type="submit") #{result5}
+    - if(result6)
+      li 
+        form(action="/detail", method="post")
+          div.control-group.input-append
+              input(type="hidden", name="title", value=result6)
+          button(type="submit") #{result6}
+    - if(result7)
+      li 
+        form(action="/detail", method="post")
+          div.control-group.input-append
+              input(type="hidden", name="title", value=result7)
+          button(type="submit") #{result7}
+    - if(result8)
+      li 
+        form(action="/detail", method="post")
+          div.control-group.input-append
+              input(type="hidden", name="title", value=result8)
+          button(type="submit") #{result8}
+    - if(result9)
+      li 
+        form(action="/detail", method="post")
+          div.control-group.input-append
+              input(type="hidden", name="title", value=result9)
+          button(type="submit") #{result9}
+    - if(result10)
+      li
+        form(action="/detail", method="post")
+          div.control-group.input-append
+              input(type="hidden", name="title", value=result10)
+          button(type="submit") #{result10}
+    - if(result11)
+      li
+        form(action="/detail", method="post")
+          div.control-group.input-append
+              input(type="hidden", name="title", value=result11)
+          button(type="submit") #{result11}
+    - if(result12)
+      li 
+        form(action="/detail", method="post")
+          div.control-group.input-append
+              input(type="hidden", name="title", value=result12)
+          button(type="submit") #{result12}
