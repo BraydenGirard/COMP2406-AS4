@@ -177,8 +177,9 @@ function parse(fileDataString) {
                 tempChords = tempChords.replace("l", "");
                 tempChords = tempChords.replace("s", "");
                 tempChords = tempChords.replace("U", "");
-                
-                var tempChordsArr = tempChords.split(/(?=[A-Z])/);
+                tempChords = tempChords.replace( tempChords, "\\[.*?\\]", ""); 
+				
+				var tempChordsArr = tempChords.split(/(?=[A-Z])/);
                 
                 if(tempChordsArr.length > 1) {
                     var newChords = "";
