@@ -1,0 +1,83 @@
+extends tablelayout
+
+block content
+  h1 #{title}
+  - if(error)
+    div.alert-error #{error}
+  p Style: #{style}
+  p Composer: #{composer}
+  p Key: #{key}
+  ul(style="list-style-type: none;")
+    li
+      - if (line1)
+        each object in line1
+          - if(object.leftDoubleBarLine)
+            p(style="display: inline;") ||
+            |
+          p(style="display: inline;")=object.chords
+    br
+    br
+    li
+      - if (line2)
+        each object in line2
+          p(style="display: inline;")=object.chords
+    br
+    br
+    li
+      - if (line3)
+        each object in line3
+          p(style="display: inline;")=object.chords
+    br
+    br
+    li
+      - if (line4)
+        each object in line4
+          p(style="display: inline;")=object.chords
+    br
+    br
+    li
+      - if (line5)
+        each object in line5
+          p(style="display: inline;")=object.chords
+    br
+    br
+    li
+      - if (line6)
+        each object in line6
+          p(style="display: inline;")=object.chords
+    br
+    br
+    li
+      - if (line7)
+        each object in line7
+          p(style="display: inline;")=object.chords
+    br
+    br
+    li
+      - if (line8)
+        each object in line8
+          p(style="display: inline;")=object.chords
+    br
+    br
+    li
+      - if (line9)
+        each object in line9
+          p(style="display: inline;")=object.chords
+    br
+    br
+    li
+      - if(line10)
+        each object in line10
+          p(style="display: inline;")=object.chords
+    br
+    br
+    li
+      - if(line11)
+        each object in line11
+          p(style="display: inline;")=object.chords
+    br
+    br
+    li
+      - if(line12)
+        each object in line12
+          p(style="display: inline;")=object.chords
