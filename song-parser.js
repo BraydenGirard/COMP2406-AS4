@@ -177,9 +177,16 @@ function parse(fileDataString) {
                 tempChords = tempChords.replace("l", "");
                 tempChords = tempChords.replace("s", "");
                 tempChords = tempChords.replace("U", "");
-			//	var regex = RegExp("\\[.*?\\]", "i");
-             //   tempChords = tempChords.replace(regex, ""); 
+	
+			 	var alternateChordsArr = tempChords.match(/\(([^)]+)\)/);
+			 
+			 	if(alternateChordsArr != null)
+			 	{
+			 		currentBar.alternateChords = alternateChordsArr[1];
+			 	}
 				
+				tempChords = tempChords.replace(/\(([^)]+)\)/, "");
+			 
 				var tempChordsArr = tempChords.split(/(?=[A-Z])/);
                 
                 if(tempChordsArr.length > 1) {
