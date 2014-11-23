@@ -90,16 +90,26 @@ function buildSongList() {
 // builds the object for rendering the detail table jade view 
 function buildDetailPage() {
 	
+	var emptyBar = {chords:"", time: "", finalBarLine: "", leftDoubleBarLine: "", rightDoubleBarLine: "", rehearsalLetter: "", rightRepeat: "", leftRepeat: ""};
 	var lines = [], size = 4;
 	var bars = currentSong.bars;
 
-	while (bars.length > 0)
-    	lines.push(bars.splice(0, size));
-	
-	console.log(lines[1]);
+	while (bars.length > 0) {
+		lines.push(bars.splice(0, size));
+	}
+    	
+    var i = lines.length;
+	while(lines.length < 12)
+	{
+		lines[i] = [emptyBar, emptyBar, emptyBar, emptyBar];
+		i++
+	}
 
-	var object = {title: currentSong.title, style:currentSong.style, composer:currentSong.composer, key:currentSong.key, bars: lines[1] };
+	console.log
 
+	var object = {title: currentSong.title, style:currentSong.style, composer:currentSong.composer, key:currentSong.key, line1: lines[0], line2: lines[1], line3: lines[2],
+		line4: lines[3], line5: lines[4], line6: lines[5], line7: lines[6], line8: lines[7], line9: lines[8],lines10: lines[9], line11: lines[10], line12: lines[11]
+	};
 	return object;
 }
 

@@ -7,8 +7,211 @@ block content
   p Style: #{style}
   p Composer: #{composer}
   p Key: #{key}
+
+  table
+    tr
+      each object in line1
+        -if(object.rehearsalLetter)
+          p &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [ #{object.rehearsalLetter} ]
+        -if(object.time)
+          td #{object.time} &nbsp
+        -if(object.leftDoubleBarLine) 
+          td || #{object.chords} &nbsp ||
+        -else
+          td #{object.chords} &nbsp | &nbsp
+        -if(object.rightDoubleBarLine)
+          p(style="display: inline;") |
+          
+
+
   ul(style="list-style-type: none;")
-    each chords in bars
-      li= chords.chords
-
-
+    li
+      - if (line1)
+        each object in line1
+          if(object.rehearsalLetter)
+            p &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [ #{object.rehearsalLetter} ]
+          if(object.time)
+            p(style="display: inline;") #{object.time}  
+          else
+            p(style="display: inline;") &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  
+          if(object.leftDoubleBarLine)
+            p(style="display: inline;")   || 
+          else
+            p(style="display: inline;")   &nbsp&nbsp
+          p(style="display: inline;") #{object.chords} |      
+    br
+    br
+    li
+      - if (line2)
+        each object in line2
+          if(object.rehearsalLetter)
+            p &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [ #{object.rehearsalLetter} ]
+          if(object.time)
+            p(style="display: inline;") #{object.time}  
+          else
+            p(style="display: inline;") &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp       
+          if(object.leftDoubleBarLine)
+            p(style="display: inline;")   ||
+          else
+            p(style="display: inline;")   &nbsp&nbsp
+          p(style="display: inline;") #{object.chords} |  
+          if(object.rightDoubleBarLine)
+            p(style="display: inline;") |
+          else
+            p(style="display: inline;")   &nbsp&nbsp
+    br
+    br
+    li
+      - if (line3)
+        each object in line3
+          if(object.rehearsalLetter)
+            p &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [ #{object.rehearsalLetter} ]
+          if(object.time)
+            p(style="display: inline;") #{object.time}  
+          else
+            p(style="display: inline;") &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp       
+          if(object.leftDoubleBarLine)
+            p(style="display: inline;")   ||
+          else
+            p(style="display: inline;")   &nbsp&nbsp
+          p(style="display: inline;") #{object.chords} |  
+    br
+    br
+    li
+      - if (line4)
+        each object in line4
+          if(object.rehearsalLetter)
+            p &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [ #{object.rehearsalLetter} ]
+          if(object.time)
+            p(style="display: inline;") #{object.time}  
+          else
+            p(style="display: inline;") &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp       
+          if(object.leftDoubleBarLine)
+            p(style="display: inline;")   ||
+          else
+            p(style="display: inline;")   &nbsp&nbsp
+          p(style="display: inline;") #{object.chords} |  
+    br
+    br
+    li
+      - if (line5)
+        each object in line5
+          if(object.rehearsalLetter)
+            p &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [ #{object.rehearsalLetter} ]
+          if(object.time)
+            p(style="display: inline;") #{object.time}  
+          else
+            p(style="display: inline;") &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp       
+          if(object.leftDoubleBarLine)
+            p(style="display: inline;")   ||
+          else
+            p(style="display: inline;")   &nbsp&nbsp
+          p(style="display: inline;") #{object.chords} |  
+    br
+    br
+    li
+      - if (line6)
+        each object in line6
+          if(object.rehearsalLetter)
+            p &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [ #{object.rehearsalLetter} ]
+          if(object.time)
+            p(style="display: inline;") #{object.time}  
+          else
+            p(style="display: inline;") &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp       
+          if(object.leftDoubleBarLine)
+            p(style="display: inline;")   ||
+          else
+            p(style="display: inline;")   &nbsp&nbsp
+          p(style="display: inline;") #{object.chords} |  
+    br
+    br
+    li
+      - if (line7)
+        each object in line7
+          if(object.rehearsalLetter)
+            p &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [ #{object.rehearsalLetter} ]
+          if(object.time)
+            p(style="display: inline;") #{object.time}  
+          else
+            p(style="display: inline;") &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp       
+          if(object.leftDoubleBarLine)
+            p(style="display: inline;")   ||
+          else
+            p(style="display: inline;")   &nbsp&nbsp
+          p(style="display: inline;") #{object.chords} |  
+    br
+    br
+    li
+      - if (line8)
+        each object in line8
+          if(object.rehearsalLetter)
+            p &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [ #{object.rehearsalLetter} ]
+          if(object.time)
+            p(style="display: inline;") #{object.time}  
+          else
+            p(style="display: inline;") &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp       
+          if(object.leftDoubleBarLine)
+            p(style="display: inline;")   ||
+          else
+            p(style="display: inline;")   &nbsp&nbsp
+          p(style="display: inline;") #{object.chords} |  
+    br
+    br
+    li
+      - if (line9)
+        each object in line9
+          if(object.rehearsalLetter)
+            p &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [ #{object.rehearsalLetter} ]
+          if(object.time)
+            p(style="display: inline;") #{object.time}  
+          else
+            p(style="display: inline;") &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp       
+          if(object.leftDoubleBarLine)
+            p(style="display: inline;")   ||
+          else
+            p(style="display: inline;")   &nbsp&nbsp
+          p(style="display: inline;") #{object.chords} |  
+    br
+    br
+    li
+      - if(line10)
+        each object in line10
+          if(object.rehearsalLetter)
+            p &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [ #{object.rehearsalLetter} ]
+          if(object.time)
+            p(style="display: inline;") #{object.time}  
+          else
+            p(style="display: inline;") &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp       
+          if(object.leftDoubleBarLine)
+            p(style="display: inline;")   ||
+          else
+            p(style="display: inline;")   &nbsp&nbsp
+          p(style="display: inline;") #{object.chords} |  
+    br
+    br
+    li
+      - if(line11)
+        each object in line11
+          if(object.rehearsalLetter)
+            p &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [ #{object.rehearsalLetter} ]
+          if(object.time)
+            p(style="display: inline;") #{object.time}  
+          else
+            p(style="display: inline;") &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp       
+          if(object.leftDoubleBarLine)
+            p(style="display: inline;")   || 
+          p(style="display: inline;") #{object.chords} | 
+    br
+    br
+    li
+      - if(line12)
+        each object in line12
+          if(object.rehearsalLetter)
+            p &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [ #{object.rehearsalLetter} ]
+          if(object.time)
+            p(style="display: inline;") #{object.time}  
+          else
+            p(style="display: inline;") &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp       
+          if(object.leftDoubleBarLine)
+            p(style="display: inline;")   || 
+          p(style="display: inline;") #{object.chords} | 
