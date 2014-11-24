@@ -177,6 +177,13 @@ function parse(fileDataString) {
                 tempChords = tempChords.replace("l", "");
                 tempChords = tempChords.replace("s", "");
                 tempChords = tempChords.replace("U", "");
+				tempChords = tempChords.replace("n", "N.C.");
+				
+				currentBar.coda = tempChords.match(/@/g);
+				currenBar.sign = tempChords.match(/$/g);
+				
+                tempChords = tempChords.replace("@", "");
+                tempChords = tempChords.replace("%", "");
 	
 			 	var alternateChordsArr = tempChords.match(/\(([^)]+)\)/);
 			 
