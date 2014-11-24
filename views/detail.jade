@@ -9,209 +9,603 @@ block content
   p Key: #{key}
 
   table
-    tr
-      each object in line1
-        -if(object.rehearsalLetter)
-          p &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [ #{object.rehearsalLetter} ]
-        -if(object.time)
-          td #{object.time} &nbsp
-        -if(object.leftDoubleBarLine) 
-          td || #{object.chords} &nbsp ||
-        -else
-          td #{object.chords} &nbsp | &nbsp
-        -if(object.rightDoubleBarLine)
-          p(style="display: inline;") |
-          
 
-
-  ul(style="list-style-type: none;")
-    li
-      - if (line1)
+    -if(line1)
+      tr
         each object in line1
-          if(object.rehearsalLetter)
-            p &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [ #{object.rehearsalLetter} ]
-          if(object.time)
-            p(style="display: inline;") #{object.time}  
-          else
-            p(style="display: inline;") &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  
-          if(object.leftDoubleBarLine)
-            p(style="display: inline;")   || 
-          else
-            p(style="display: inline;")   &nbsp&nbsp
-          p(style="display: inline;") #{object.chords} |      
-    br
-    br
-    li
-      - if (line2)
+          -if(object.rehearsalLetter)
+            td 
+              p [ #{object.rehearsalLetter} ]
+          -else
+            td &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+          -if(object.alternateChords)
+            td 
+              p #{object.alternateChords}
+      tr
+        each object in line1
+          -if(object.time)
+            td 
+              p #{object.time} 
+          -else
+            td &nbsp&nbsp&nbsp
+          -if(object.leftDoubleBarLine) 
+            td 
+              p || #{object.chords} |
+          -else if(object.rightDoubleBarLine)
+            td 
+              p #{object.chords} ||
+          - else if(object.rightRepeat)
+            td
+              p |: #{object.chords} 
+          - else if(object.leftRepeat)
+            td
+              p #{object.chords} :|
+          - else if(object.finalBarLine)
+            td
+              p(style="font-weight: bold;") #{object.chords} ||
+          -else if(object.chords)
+            td 
+              p #{object.chords} |
+          -else
+            td
+              p 
+
+    -if(line2)
+      tr
         each object in line2
-          if(object.rehearsalLetter)
-            p &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [ #{object.rehearsalLetter} ]
-          if(object.time)
-            p(style="display: inline;") #{object.time}  
-          else
-            p(style="display: inline;") &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp       
-          if(object.leftDoubleBarLine)
-            p(style="display: inline;")   ||
-          else
-            p(style="display: inline;")   &nbsp&nbsp
-          p(style="display: inline;") #{object.chords} |  
-          if(object.rightDoubleBarLine)
-            p(style="display: inline;") |
-          else
-            p(style="display: inline;")   &nbsp&nbsp
-    br
-    br
-    li
-      - if (line3)
+          -if(object.rehearsalLetter)
+            td 
+              p [ #{object.rehearsalLetter} ]
+          -else
+            td &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+          -if(object.alternateChords)
+            td 
+              p #{object.alternateChords}
+      tr
+        each object in line2
+          -if(object.time)
+            td 
+              p #{object.time} 
+          -else
+            td &nbsp&nbsp&nbsp
+          -if(object.leftDoubleBarLine) 
+            td 
+              p || #{object.chords} |
+          -else if(object.rightDoubleBarLine)
+            td 
+              p #{object.chords} ||
+          - else if(object.rightRepeat)
+            td
+              p |: #{object.chords} 
+          - else if(object.leftRepeat)
+            td
+              p #{object.chords} :|
+          - else if(object.finalBarLine)
+            td
+              p(style="font-weight: bold;") #{object.chords} ||
+          -else if(object.chords)
+            td 
+              p #{object.chords} |
+          -else
+            td
+              p 
+
+    -if(line3)
+      tr
         each object in line3
-          if(object.rehearsalLetter)
-            p &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [ #{object.rehearsalLetter} ]
-          if(object.time)
-            p(style="display: inline;") #{object.time}  
-          else
-            p(style="display: inline;") &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp       
-          if(object.leftDoubleBarLine)
-            p(style="display: inline;")   ||
-          else
-            p(style="display: inline;")   &nbsp&nbsp
-          p(style="display: inline;") #{object.chords} |  
-    br
-    br
-    li
-      - if (line4)
+          -if(object.rehearsalLetter)
+            td 
+              p [ #{object.rehearsalLetter} ]
+          -else
+            td &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+          -if(object.alternateChords)
+            td 
+              p #{object.alternateChords}
+      tr
+        each object in line3
+          -if(object.time)
+            td 
+              p #{object.time} 
+          -else
+            td &nbsp&nbsp&nbsp
+          -if(object.leftDoubleBarLine) 
+            td 
+              p || #{object.chords} |
+          -else if(object.rightDoubleBarLine)
+            td 
+              p #{object.chords} ||
+          - else if(object.rightRepeat)
+            td
+              p |: #{object.chords} 
+          - else if(object.leftRepeat)
+            td
+              p #{object.chords} :|
+          - else if(object.finalBarLine)
+            td
+              p(style="font-weight: bold;") #{object.chords} ||
+          -else if(object.chords)
+            td 
+              p #{object.chords} |
+          -else
+            td
+              p 
+
+    -if(line4)
+      tr
         each object in line4
-          if(object.rehearsalLetter)
-            p &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [ #{object.rehearsalLetter} ]
-          if(object.time)
-            p(style="display: inline;") #{object.time}  
-          else
-            p(style="display: inline;") &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp       
-          if(object.leftDoubleBarLine)
-            p(style="display: inline;")   ||
-          else
-            p(style="display: inline;")   &nbsp&nbsp
-          p(style="display: inline;") #{object.chords} |  
-    br
-    br
-    li
-      - if (line5)
+          -if(object.rehearsalLetter)
+            td 
+              p [ #{object.rehearsalLetter} ]
+          -else
+            td &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+          -if(object.alternateChords)
+            td 
+              p #{object.alternateChords}
+      tr
+        each object in line4
+          -if(object.time)
+            td 
+              p #{object.time} 
+          -else
+            td &nbsp&nbsp&nbsp
+          -if(object.leftDoubleBarLine) 
+            td 
+              p || #{object.chords} |
+          -else if(object.rightDoubleBarLine)
+            td 
+              p #{object.chords} ||
+          - else if(object.rightRepeat)
+            td
+              p |: #{object.chords} 
+          - else if(object.leftRepeat)
+            td
+              p #{object.chords} :|
+          - else if(object.finalBarLine)
+            td
+              p(style="font-weight: bold;") #{object.chords} ||
+          -else if(object.chords)
+            td 
+              p #{object.chords} |
+          -else
+            td
+              p 
+
+    -if(line5)
+      tr
         each object in line5
-          if(object.rehearsalLetter)
-            p &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [ #{object.rehearsalLetter} ]
-          if(object.time)
-            p(style="display: inline;") #{object.time}  
-          else
-            p(style="display: inline;") &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp       
-          if(object.leftDoubleBarLine)
-            p(style="display: inline;")   ||
-          else
-            p(style="display: inline;")   &nbsp&nbsp
-          p(style="display: inline;") #{object.chords} |  
-    br
-    br
-    li
-      - if (line6)
+          -if(object.rehearsalLetter)
+            td 
+              p [ #{object.rehearsalLetter} ]
+          -else
+            td &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+          -if(object.alternateChords)
+            td 
+              p #{object.alternateChords}
+      tr
+        each object in line5
+          -if(object.time)
+            td 
+              p #{object.time} 
+          -else
+            td &nbsp&nbsp&nbsp
+          -if(object.leftDoubleBarLine) 
+            td 
+              p || #{object.chords} |
+          -else if(object.rightDoubleBarLine)
+            td 
+              p #{object.chords} ||
+          - else if(object.rightRepeat)
+            td
+              p |: #{object.chords} 
+          - else if(object.leftRepeat)
+            td
+              p #{object.chords} :|
+          - else if(object.finalBarLine)
+            td
+              p(style="font-weight: bold;") #{object.chords} ||
+          -else if(object.chords)
+            td 
+              p #{object.chords} |
+          -else
+            td
+              p 
+
+    -if(line6)
+      tr
         each object in line6
-          if(object.rehearsalLetter)
-            p &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [ #{object.rehearsalLetter} ]
-          if(object.time)
-            p(style="display: inline;") #{object.time}  
-          else
-            p(style="display: inline;") &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp       
-          if(object.leftDoubleBarLine)
-            p(style="display: inline;")   ||
-          else
-            p(style="display: inline;")   &nbsp&nbsp
-          p(style="display: inline;") #{object.chords} |  
-    br
-    br
-    li
-      - if (line7)
+          -if(object.rehearsalLetter)
+            td 
+              p [ #{object.rehearsalLetter} ]
+          -else
+            td &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+          -if(object.alternateChords)
+            td 
+              p #{object.alternateChords}
+      tr
+        each object in line6
+          -if(object.time)
+            td 
+              p #{object.time} 
+          -else
+            td &nbsp&nbsp&nbsp
+          -if(object.leftDoubleBarLine) 
+            td 
+              p || #{object.chords} |
+          -else if(object.rightDoubleBarLine)
+            td 
+              p #{object.chords} ||
+          - else if(object.rightRepeat)
+            td
+              p |: #{object.chords} 
+          - else if(object.leftRepeat)
+            td
+              p #{object.chords} :|
+          - else if(object.finalBarLine)
+            td
+              p(style="font-weight: bold;") #{object.chords} ||
+          -else if(object.chords)
+            td 
+              p #{object.chords} |
+          -else
+            td
+              p 
+
+    -if(line7)
+      tr
         each object in line7
-          if(object.rehearsalLetter)
-            p &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [ #{object.rehearsalLetter} ]
-          if(object.time)
-            p(style="display: inline;") #{object.time}  
-          else
-            p(style="display: inline;") &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp       
-          if(object.leftDoubleBarLine)
-            p(style="display: inline;")   ||
-          else
-            p(style="display: inline;")   &nbsp&nbsp
-          p(style="display: inline;") #{object.chords} |  
-    br
-    br
-    li
-      - if (line8)
+          -if(object.rehearsalLetter)
+            td 
+              p [ #{object.rehearsalLetter} ]
+          -else
+            td &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+          -if(object.alternateChords)
+            td 
+              p #{object.alternateChords}
+      tr
+        each object in line7
+          -if(object.time)
+            td 
+              p #{object.time} 
+          -else
+            td &nbsp&nbsp&nbsp
+          -if(object.leftDoubleBarLine) 
+            td 
+              p || #{object.chords} |
+          -else if(object.rightDoubleBarLine)
+            td 
+              p #{object.chords} ||
+          - else if(object.rightRepeat)
+            td
+              p |: #{object.chords} 
+          - else if(object.leftRepeat)
+            td
+              p #{object.chords} :|
+          - else if(object.finalBarLine)
+            td
+              p(style="font-weight: bold;") #{object.chords} ||
+          -else if(object.chords)
+            td 
+              p #{object.chords} |
+          -else
+            td
+              p  
+
+    -if(line8)
+      tr
         each object in line8
-          if(object.rehearsalLetter)
-            p &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [ #{object.rehearsalLetter} ]
-          if(object.time)
-            p(style="display: inline;") #{object.time}  
-          else
-            p(style="display: inline;") &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp       
-          if(object.leftDoubleBarLine)
-            p(style="display: inline;")   ||
-          else
-            p(style="display: inline;")   &nbsp&nbsp
-          p(style="display: inline;") #{object.chords} |  
-    br
-    br
-    li
-      - if (line9)
+          -if(object.rehearsalLetter)
+            td 
+              p [ #{object.rehearsalLetter} ]
+          -else
+            td &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+          -if(object.alternateChords)
+            td 
+              p #{object.alternateChords}
+      tr
+        each object in line8
+          -if(object.time)
+            td 
+              p #{object.time} 
+          -else
+            td &nbsp&nbsp&nbsp
+          -if(object.leftDoubleBarLine) 
+            td 
+              p || #{object.chords} |
+          -else if(object.rightDoubleBarLine)
+            td 
+              p #{object.chords} ||
+          - else if(object.rightRepeat)
+            td
+              p |: #{object.chords} 
+          - else if(object.leftRepeat)
+            td
+              p #{object.chords} :|
+          - else if(object.finalBarLine)
+            td
+              p(style="font-weight: bold;") #{object.chords} ||
+          -else if(object.chords)
+            td 
+              p #{object.chords} |
+          -else
+            td
+              p  
+
+    -if(line9)
+      tr
         each object in line9
-          if(object.rehearsalLetter)
-            p &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [ #{object.rehearsalLetter} ]
-          if(object.time)
-            p(style="display: inline;") #{object.time}  
-          else
-            p(style="display: inline;") &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp       
-          if(object.leftDoubleBarLine)
-            p(style="display: inline;")   ||
-          else
-            p(style="display: inline;")   &nbsp&nbsp
-          p(style="display: inline;") #{object.chords} |  
-    br
-    br
-    li
-      - if(line10)
+          -if(object.rehearsalLetter)
+            td 
+              p [ #{object.rehearsalLetter} ]
+          -else
+            td &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+          -if(object.alternateChords)
+            td 
+              p #{object.alternateChords}
+      tr
+        each object in line9
+          -if(object.time)
+            td 
+              p #{object.time} 
+          -else
+            td &nbsp&nbsp&nbsp
+          -if(object.leftDoubleBarLine) 
+            td 
+              p || #{object.chords} |
+          -else if(object.rightDoubleBarLine)
+            td 
+              p #{object.chords} ||
+          - else if(object.rightRepeat)
+            td
+              p |: #{object.chords} 
+          - else if(object.leftRepeat)
+            td
+              p #{object.chords} :|
+          - else if(object.finalBarLine)
+            td
+              p(style="font-weight: bold;") #{object.chords} ||
+          -else if(object.chords)
+            td 
+              p #{object.chords} |
+          -else
+            td
+              p  
+
+    -if(line10)
+      tr
         each object in line10
-          if(object.rehearsalLetter)
-            p &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [ #{object.rehearsalLetter} ]
-          if(object.time)
-            p(style="display: inline;") #{object.time}  
-          else
-            p(style="display: inline;") &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp       
-          if(object.leftDoubleBarLine)
-            p(style="display: inline;")   ||
-          else
-            p(style="display: inline;")   &nbsp&nbsp
-          p(style="display: inline;") #{object.chords} |  
-    br
-    br
-    li
-      - if(line11)
+          -if(object.rehearsalLetter)
+            td 
+              p [ #{object.rehearsalLetter} ]
+          -else
+            td &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+          -if(object.alternateChords)
+            td 
+              p #{object.alternateChords}
+      tr
+        each object in line10
+          -if(object.time)
+            td 
+              p #{object.time} 
+          -else
+            td &nbsp&nbsp&nbsp
+          -if(object.leftDoubleBarLine) 
+            td 
+              p || #{object.chords} |
+          -else if(object.rightDoubleBarLine)
+            td 
+              p #{object.chords} ||
+          - else if(object.rightRepeat)
+            td
+              p |: #{object.chords} 
+          - else if(object.leftRepeat)
+            td
+              p #{object.chords} :|
+          - else if(object.finalBarLine)
+            td
+              p(style="font-weight: bold;") #{object.chords} ||
+          -else if(object.chords)
+            td 
+              p #{object.chords} |
+          -else
+            td
+              p 
+
+    -if(line11)
+      tr
         each object in line11
-          if(object.rehearsalLetter)
-            p &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [ #{object.rehearsalLetter} ]
-          if(object.time)
-            p(style="display: inline;") #{object.time}  
-          else
-            p(style="display: inline;") &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp       
-          if(object.leftDoubleBarLine)
-            p(style="display: inline;")   || 
-          p(style="display: inline;") #{object.chords} | 
-    br
-    br
-    li
-      - if(line12)
+          -if(object.rehearsalLetter)
+            td 
+              p [ #{object.rehearsalLetter} ]
+          -else
+            td &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+          -if(object.alternateChords)
+            td 
+              p #{object.alternateChords}
+      tr
+        each object in line11
+          -if(object.time)
+            td 
+              p #{object.time} 
+          -else
+            td &nbsp&nbsp&nbsp
+          -if(object.leftDoubleBarLine) 
+            td 
+              p || #{object.chords} |
+          -else if(object.rightDoubleBarLine)
+            td 
+              p #{object.chords} ||
+          - else if(object.finalBarLine)
+            td
+              p(style="font-weight: bold;") #{object.chords} ||
+          - else if(object.rightRepeat)
+            td
+              p |: #{object.chords} 
+          - else if(object.leftRepeat)
+            td
+              p #{object.chords} :|
+          -else if(object.chords)
+            td 
+              p #{object.chords} |
+          -else
+            td
+              p 
+
+    -if(line12)
+      tr
         each object in line12
-          if(object.rehearsalLetter)
-            p &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp [ #{object.rehearsalLetter} ]
-          if(object.time)
-            p(style="display: inline;") #{object.time}  
-          else
-            p(style="display: inline;") &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp       
-          if(object.leftDoubleBarLine)
-            p(style="display: inline;")   || 
-          p(style="display: inline;") #{object.chords} | 
+          -if(object.rehearsalLetter)
+            td 
+              p [ #{object.rehearsalLetter} ]
+          -else
+            td &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+          -if(object.alternateChords)
+            td 
+              p #{object.alternateChords}
+      tr
+        each object in line12
+          -if(object.time)
+            td 
+              p #{object.time} 
+          -else
+            td &nbsp&nbsp&nbsp
+          -if(object.leftDoubleBarLine) 
+            td 
+              p || #{object.chords} |
+          -else if(object.rightDoubleBarLine)
+            td 
+              p #{object.chords} ||
+          - else if(object.finalBarLine)
+            td
+              p(style="font-weight: bold;") #{object.chords} ||
+          - else if(object.rightRepeat)
+            td
+              p |: #{object.chords} 
+          - else if(object.leftRepeat)
+            td
+              p #{object.chords} :|
+          -else if(object.chords)
+            td 
+              p #{object.chords} |
+          -else
+            td
+              p 
+
+    -if(line13)
+      tr
+        each object in line13
+          -if(object.rehearsalLetter)
+            td 
+              p [ #{object.rehearsalLetter} ]
+          -else
+            td &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+          -if(object.alternateChords)
+            td 
+              p #{object.alternateChords}
+      tr
+        each object in line13
+          -if(object.time)
+            td 
+              p #{object.time} 
+          -else
+            td &nbsp&nbsp&nbsp
+          -if(object.leftDoubleBarLine) 
+            td 
+              p || #{object.chords} |
+          -else if(object.rightDoubleBarLine)
+            td 
+              p #{object.chords} ||
+          - else if(object.finalBarLine)
+            td
+              p(style="font-weight: bold;") #{object.chords} ||
+          - else if(object.rightRepeat)
+            td
+              p |: #{object.chords} 
+          - else if(object.leftRepeat)
+            td
+              p #{object.chords} :|
+          -else if(object.chords)
+            td 
+              p #{object.chords} |
+          -else
+            td
+              p 
+
+    -if(line14)
+      tr
+        each object in line14
+          -if(object.rehearsalLetter)
+            td 
+              p [ #{object.rehearsalLetter} ]
+          -else
+            td &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+          -if(object.alternateChords)
+            td 
+              p #{object.alternateChords}
+      tr
+        each object in line14
+          -if(object.time)
+            td 
+              p #{object.time} 
+          -else
+            td &nbsp&nbsp&nbsp
+          -if(object.leftDoubleBarLine) 
+            td 
+              p || #{object.chords} |
+          -else if(object.rightDoubleBarLine)
+            td 
+              p #{object.chords} ||
+          - else if(object.finalBarLine)
+            td
+              p(style="font-weight: bold;") #{object.chords} ||
+          - else if(object.rightRepeat)
+            td
+              p |: #{object.chords} 
+          - else if(object.leftRepeat)
+            td
+              p #{object.chords} :|
+          -else if(object.chords)
+            td 
+              p #{object.chords} |
+          -else
+            td
+              p 
+      
+    -if(line15)
+      tr
+        each object in line15
+          -if(object.rehearsalLetter)
+            td 
+              p [ #{object.rehearsalLetter} ]
+          -else
+            td &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+          -if(object.alternateChords)
+            td 
+              p #{object.alternateChords}
+      tr
+        each object in line15
+          -if(object.time)
+            td 
+              p #{object.time} 
+          -else
+            td &nbsp&nbsp&nbsp
+          -if(object.leftDoubleBarLine) 
+            td 
+              p || #{object.chords} |
+          -else if(object.rightDoubleBarLine)
+            td 
+              p #{object.chords} ||
+          - else if(object.finalBarLine)
+            td
+              p(style="font-weight: bold;") #{object.chords} ||
+          - else if(object.rightRepeat)
+            td
+              p |: #{object.chords} 
+          - else if(object.leftRepeat)
+            td
+              p #{object.chords} :|
+          -else if(object.chords)
+            td 
+              p #{object.chords} |
+          -else
+            td
+              p 

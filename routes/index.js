@@ -94,16 +94,16 @@ function buildDetailPage() {
 	
 	for(var j=0; j < currentSong.bars.length; j++) {
 		while(currentSong.bars[j].chords.length < PADDING) {
-			if(currentSong.bars[j].chords.length % 2) {
+			/*if(currentSong.bars[j].chords.length % 2) {
 				currentSong.bars[j].chords = " " + currentSong.bars[j].chords;
-			} else {
-				currentSong.bars[j].chords += " ";
-			}
+			} else {*/
+				currentSong.bars[j].chords += ".";
+			//}
 		}
 		console.log(currentSong.bars[j].chords);
 	}
 	
-	var emptyBar = {chords:"", time: "", finalBarLine: "", leftDoubleBarLine: "", rightDoubleBarLine: "", rehearsalLetter: "", rightRepeat: "", leftRepeat: ""};
+	var emptyBar = {chords:"", time: "", finalBarLine: "", leftDoubleBarLine: "", rightDoubleBarLine: "", rehearsalLetter: "", rightRepeat: "", leftRepeat: "", alternateChords: ""};
 	var lines = [], size = 4;
 	var bars = currentSong.bars;
 
@@ -112,14 +112,15 @@ function buildDetailPage() {
 	}
     	
     var i = lines.length;
-	while(lines.length < 12)
+	while(lines.length < 15)
 	{
 		lines[i] = [emptyBar, emptyBar, emptyBar, emptyBar];
 		i++
 	}
 
 	var object = {title: currentSong.title, style:currentSong.style, composer:currentSong.composer, key:currentSong.key, line1: lines[0], line2: lines[1], line3: lines[2],
-		line4: lines[3], line5: lines[4], line6: lines[5], line7: lines[6], line8: lines[7], line9: lines[8],lines10: lines[9], line11: lines[10], line12: lines[11]
+		line4: lines[3], line5: lines[4], line6: lines[5], line7: lines[6], line8: lines[7], line9: lines[8],lines10: lines[9], line11: lines[10], line12: lines[11], line13: lines[12],
+		line14: lines[13], line15: lines[14]
 	};
 	return object;
 }
