@@ -180,7 +180,7 @@ function parse(fileDataString) {
 				tempChords = tempChords.replace("n", "N.C.");
 				
 				currentBar.coda = tempChords.match(/@/g);
-				currenBar.sign = tempChords.match(/$/g);
+				currentBar.sign = tempChords.match(/$/g);
 				
                 tempChords = tempChords.replace("@", "");
                 tempChords = tempChords.replace("%", "");
