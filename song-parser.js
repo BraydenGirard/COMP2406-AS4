@@ -170,21 +170,22 @@ function parse(fileDataString) {
                 var tempChords = result.slice(slice, result.length);
                 tempChords = tempChords.replace("^", "maj");
                 tempChords = tempChords.replace("-", "m");
-                tempChords = tempChords.replace("Q", "@");
                 tempChords = tempChords.replace("x", "%");
-                tempChords = tempChords.replace("S", "$");
                 tempChords = tempChords.replace("Y", "");
                 tempChords = tempChords.replace("l", "");
                 tempChords = tempChords.replace("s", "");
                 tempChords = tempChords.replace("U", "");
-				tempChords = tempChords.replace("n", "N.C.");
 				
-				currentBar.coda = tempChords.match(/@/g);
-				currentBar.sign = tempChords.match(/$/g);
-				
-                tempChords = tempChords.replace("@", "");
-                tempChords = tempChords.replace("%", "");
-	
+				if(tempChords.match("Q")) {
+					currentBar.coda = "@";
+					tempChords = tempChords.replace("Q", "");
+				}
+				if(tempChords.match("S")) {
+					currentBar.sign = "$";
+					tempChords = tempChords.replace("S", "");
+				}
+			   
+			   	//Extract alternate chords between ( )
 			 	var alternateChordsArr = tempChords.match(/\(([^)]+)\)/);
 			 
 			 	if(alternateChordsArr != null)
@@ -193,22 +194,34 @@ function parse(fileDataString) {
 			 	}
 				
 				tempChords = tempChords.replace(/\(([^)]+)\)/, "");
+				
+				//Extract text between < >
+			 	var textArr = tempChords.match(/<[^>]*>/g);
+			 
+			 	if(textArr != null)
+			 	{
+			 		currentBar.text = textArr[1];
+			 	}
+				
+				tempChords = tempChords.replace(/<[^>]*>/g, "");
 			 
 				var tempChordsArr = tempChords.split(/(?=[A-Z])/);
                 
                 if(tempChordsArr.length > 1) {
-                    var newChords = "";
+                    var newChord = "";
                     for(var j=0; j<tempChordsArr.length; j++) {
                         if(j < tempChordsArr.length - 1) {
-                            newChords += tempChordsArr[j] + " / ";
+                            newChord += tempChordsArr[j] + " / ";
                         }
                         else {
-                            newChords += tempChordsArr[j];
+                            newChord += tempChordsArr[j];
                         }
                     }
-                    currentBar.chords = newChords.trim();
+					newChord = newChord.replace("n", "N.C.");
+                    currentBar.chords = newChord.trim();
                 }
                 else {
+					tempChords = tempChords.replace("n", "N.C.");
                     currentBar.chords = tempChords.trim();
                 }
                 

@@ -169,7 +169,8 @@
           "chords": "Fm7"
         },
         {
-          "chords": "% @"
+          "coda": "@",
+          "chords": "%"
         },
         {
           "chords": "Cm7"
@@ -188,7 +189,8 @@
           "chords": ""
         },
         {
-          "chords": "@ / Cm7"
+          "coda": "@",
+          "chords": "Cm7"
         },
         {
           "chords": "%"
@@ -505,7 +507,7 @@
         },
         {
           "alternateChords": "Repeat Optiona",
-          "chords": "Em7 <> / A7"
+          "chords": "Em7  / A7"
         },
         {
           "chords": "Dm7  / G7",
@@ -2069,7 +2071,7 @@
         {
           "rehearsalLetter": "i",
           "time": "4/4",
-          "chords": "<*65  / Head> / C6"
+          "chords": "C6"
         },
         {
           "chords": "%"
@@ -2122,7 +2124,8 @@
         {
           "leftRepeat": "true",
           "rehearsalLetter": "1",
-          "chords": "18  / Form:  / A / A / B / A>                * / A$< / Soo> / C  / C/ / E"
+          "sign": "$",
+          "chords": "18  / Form:  / A / A / B / A>                * / A / C  / C/ / E"
         },
         {
           "chords": "F  / G"
@@ -2143,7 +2146,7 @@
           "chords": "C/ / G"
         },
         {
-          "chords": "C < / Fine>",
+          "chords": "C",
           "rightRepeat": "true"
         },
         {
@@ -2170,7 +2173,8 @@
           "chords": "Ab7"
         },
         {
-          "chords": "< / D.$. a  / Fine> / G7",
+          "sign": "$",
+          "chords": "G7",
           "finalBarLine": "true"
         }
       ],
@@ -2265,7 +2269,8 @@
           "chords": "Gm7  / C7"
         },
         {
-          "chords": "Am7,  / D7b9,@"
+          "coda": "@",
+          "chords": "Am7,  / D7b9,"
         },
         {
           "chords": "G7, / C7, / Fm, / E7",
@@ -2275,10 +2280,11 @@
           "chords": ""
         },
         {
-          "chords": "@ / Gm7, / C7, / F-7, / Bb7,"
+          "coda": "@",
+          "chords": "Gm7, / C7, / F-7, / Bb7,"
         },
         {
-          "chords": "<rit.....> / Ebm7, / Ab7, / Gb13",
+          "chords": "Ebm7, / Ab7, / Gb13",
           "finalBarLine": "true"
         }
       ],
@@ -2682,7 +2688,7 @@
           "chords": "/ N2 / Cmaj7"
         },
         {
-          "chords": "%< / Fine>",
+          "chords": "%",
           "rightDoubleBarLine": "true"
         },
         {
@@ -2730,7 +2736,7 @@
           "chords": "A7"
         },
         {
-          "chords": "Dm7 < / D. / C. a 2nd ending>"
+          "chords": "Dm7"
         },
         {
           "chords": "G7",
@@ -3658,7 +3664,7 @@
         },
         {
           "alternateChords": "Bb7",
-          "chords": "Fm7 < / Optiona  / Bb pedal in  / A ections> / Bb7"
+          "chords": "Fm7  / Bb7"
         },
         {
           "chords": "Eb6"
@@ -3714,7 +3720,8 @@
           "chords": "%"
         },
         {
-          "chords": "Dm7  @"
+          "coda": "@",
+          "chords": "Dm7"
         },
         {
           "chords": "D#o7"
@@ -3784,14 +3791,15 @@
           "chords": "Db7"
         },
         {
-          "chords": "C7  < / D. / C. a  / C / O / D / A>"
+          "chords": "C7"
         },
         {
           "chords": "Bh7  / E7b9",
           "rightDoubleBarLine": "true"
         },
         {
-          "chords": "@   / E7"
+          "coda": "@",
+          "chords": "/ E7"
         },
         {
           "chords": "Am7"
@@ -5658,12 +5666,14 @@
           "chords": "%"
         },
         {
-          "chords": "E7b5  @",
+          "coda": "@",
+          "chords": "E7b5",
           "rightRepeat": "true"
         },
         {
           "leftRepeat": "true",
-          "chords": "@ / D7"
+          "coda": "@",
+          "chords": "D7"
         },
         {
           "chords": "%"
@@ -5672,7 +5682,7 @@
           "chords": "%"
         },
         {
-          "chords": "< / Fade>%",
+          "chords": "%",
           "rightRepeat": "true"
         }
       ],
@@ -5765,7 +5775,7 @@
           "chords": "F9  / Bb7"
         },
         {
-          "chords": "Eb6  / Cm7< / D. / C. a 3rd end.>"
+          "chords": "Eb6  / Cm7"
         },
         {
           "chords": "Fm7  / Bb13",
@@ -7790,13 +7800,15 @@
           "chords": "Em7  / A7b9"
         },
         {
-          "chords": "Dmaj7  @",
+          "coda": "@",
+          "chords": "Dmaj7",
           "rightDoubleBarLine": "true"
         },
         {
           "leftDoubleBarLine": "true",
           "rehearsalLetter": "6",
-          "chords": "@<*69      / Ending> / Dm7  / G7"
+          "coda": "@",
+          "chords": "/ Dm7  / G7"
         },
         {
           "chords": "Em7  / A7#9"
@@ -8143,7 +8155,8 @@
           "chords": "F"
         },
         {
-          "chords": "Bb7  @"
+          "coda": "@",
+          "chords": "Bb7"
         },
         {
           "chords": "G7  / C7"
@@ -8154,7 +8167,8 @@
         },
         {
           "leftDoubleBarLine": "true",
-          "chords": "@ / Bh7  / Bbm7"
+          "coda": "@",
+          "chords": "Bh7  / Bbm7"
         },
         {
           "chords": "pp / A7"
@@ -9081,7 +9095,7 @@
         },
         {
           "leftRepeat": "true",
-          "chords": "< / Open for oos> / F13"
+          "chords": "F13"
         },
         {
           "chords": "%"
@@ -9577,12 +9591,14 @@
           "chords": "Gbm6"
         },
         {
-          "chords": "Db/ / F  @ <oos on  / A / B>",
+          "coda": "@",
+          "chords": "Db/ / F",
           "rightRepeat": "true"
         },
         {
           "leftDoubleBarLine": "true",
-          "chords": "@  / Gbm6"
+          "coda": "@",
+          "chords": "/ Gbm6"
         },
         {
           "chords": "Db/ / F"
@@ -9893,7 +9909,8 @@
           "chords": "Bb/ / D,  / Gm7/ / D,"
         },
         {
-          "chords": "A7/ / E,  @"
+          "coda": "@",
+          "chords": "A7/ / E,"
         },
         {
           "chords": "Bm7,  / B-7/ / A,"
@@ -9922,7 +9939,8 @@
         },
         {
           "leftDoubleBarLine": "true",
-          "chords": "@ / D/ / A,  / A7,"
+          "coda": "@",
+          "chords": "D/ / A,  / A7,"
         },
         {
           "chords": "D9/ / F#,  / A7/ / E,"
@@ -12066,7 +12084,7 @@
           "chords": "A7b13"
         },
         {
-          "chords": "Dm7 <oos on  / A / A / B / A>"
+          "chords": "Dm7"
         },
         {
           "chords": "Eb7",
@@ -12803,14 +12821,16 @@
           "chords": "Em7"
         },
         {
-          "chords": "A7  @",
+          "coda": "@",
+          "chords": "A7",
           "finalBarLine": "true"
         },
         {
           "chords": ""
         },
         {
-          "chords": "@ / D6  / C7"
+          "coda": "@",
+          "chords": "D6  / C7"
         },
         {
           "chords": "Bm7"
@@ -12867,14 +12887,16 @@
           "chords": "Am7"
         },
         {
-          "chords": "Dm7  @",
+          "coda": "@",
+          "chords": "Dm7",
           "finalBarLine": "true"
         },
         {
           "chords": ""
         },
         {
-          "chords": "@ / Gm6"
+          "coda": "@",
+          "chords": "Gm6"
         },
         {
           "chords": "A7#9"
@@ -13904,7 +13926,8 @@
           "chords": "Bb6  / Eb7"
         },
         {
-          "chords": "Bb6  @",
+          "coda": "@",
+          "chords": "Bb6",
           "rightRepeat": "true"
         },
         {
@@ -13942,11 +13965,12 @@
           "chords": "/ G7b9  / C7#5"
         },
         {
-          "chords": "< / D. / C. a  / Coda> / C7b9  / F7",
+          "chords": "C7b9  / F7",
           "rightDoubleBarLine": "true"
         },
         {
-          "chords": "@ / G7b9  / C7#5"
+          "coda": "@",
+          "chords": "/ G7b9  / C7#5"
         },
         {
           "chords": "C7b9  / F7"
@@ -14004,7 +14028,8 @@
           "chords": "Ch7"
         },
         {
-          "chords": "F7  @"
+          "coda": "@",
+          "chords": "F7"
         },
         {
           "chords": "Bb7  / Db7"
@@ -14016,7 +14041,8 @@
         {
           "leftRepeat": "true",
           "rehearsalLetter": "B",
-          "chords": "B<*68  $oo:> / Bb7"
+          "sign": "$",
+          "chords": "B / Bb7"
         },
         {
           "chords": "Eb7"
@@ -14046,7 +14072,7 @@
           "chords": "F7"
         },
         {
-          "chords": "< / After oos,  / D. / C. al  / Coda> / Bb7  / G7"
+          "chords": "Bb7  / G7"
         },
         {
           "chords": "Cm7  / F7",
@@ -14054,7 +14080,8 @@
         },
         {
           "leftRepeat": "true",
-          "chords": "@  / Bb7  / Db7"
+          "coda": "@",
+          "chords": "/ Bb7  / Db7"
         },
         {
           "chords": "Gb7  / B7",
@@ -15034,7 +15061,7 @@
           "chords": "%"
         },
         {
-          "chords": "Bb6  <oos on  / A / A / B / A>"
+          "chords": "Bb6"
         },
         {
           "chords": "%",
@@ -15829,7 +15856,8 @@
           "rightRepeat": "true"
         },
         {
-          "chords": "@   / Dbmaj7"
+          "coda": "@",
+          "chords": "/ Dbmaj7"
         },
         {
           "chords": "Dbmaj7",
@@ -16022,7 +16050,8 @@
           "chords": "Em7  / A7b5"
         },
         {
-          "chords": "Abmaj7  @"
+          "coda": "@",
+          "chords": "Abmaj7"
         },
         {
           "chords": "Abm7  / Db7"
@@ -16050,7 +16079,8 @@
           "chords": ""
         },
         {
-          "chords": "@ / Abm7  / Db7"
+          "coda": "@",
+          "chords": "Abm7  / Db7"
         },
         {
           "chords": "Gm7  / C7"
@@ -16684,14 +16714,16 @@
           "chords": "B7  / Bb7, / A7,"
         },
         {
-          "chords": "Ab7, / Dbmaj, / C7#5,@",
+          "coda": "@",
+          "chords": "Ab7, / Dbmaj, / C7#5,",
           "finalBarLine": "true"
         },
         {
-          "chords": "@"
+          "coda": "@",
+          "chords": ""
         },
         {
-          "chords": "f< / Fine> / F7#11",
+          "chords": "f / F7#11",
           "finalBarLine": "true"
         }
       ],
@@ -17209,7 +17241,7 @@
           "chords": "D7us"
         },
         {
-          "chords": "%  <oos on  / G  / Blues>"
+          "chords": "%"
         },
         {
           "chords": "G6  / Bb7"
@@ -17232,14 +17264,14 @@
           "leftRepeat": "true",
           "rehearsalLetter": "i",
           "time": "4/4",
-          "chords": "Fm7<haf % feel throughout>"
+          "chords": "Fm7"
         },
         {
           "chords": "p / Am7,"
         },
         {
           "alternateChords": "4%",
-          "chords": "<> / Fm7"
+          "chords": "Fm7"
         },
         {
           "chords": "p / Am7",
@@ -17263,16 +17295,16 @@
         {
           "leftDoubleBarLine": "true",
           "rehearsalLetter": "B",
-          "chords": "n  / Bb7"
+          "chords": "N.C.  / Bb7"
         },
         {
-          "chords": "n"
+          "chords": "N.C."
         },
         {
-          "chords": "n"
+          "chords": "N.C."
         },
         {
-          "chords": "n / A7#9#5"
+          "chords": "N.C. / A7#9#5"
         },
         {
           "chords": "Abmaj7/ / Bb"
@@ -17302,10 +17334,11 @@
           "chords": "Ab13us"
         },
         {
-          "chords": "pp / W/ / C,@<       / Fine> / C7/ / E,"
+          "coda": "@",
+          "chords": "pp / W/ / C, / C7/ / E,"
         },
         {
-          "chords": "n  / Fm7"
+          "chords": "N.C.  / Fm7"
         },
         {
           "chords": "p / Am7"
@@ -17317,13 +17350,16 @@
           "chords": "Fm7"
         },
         {
-          "chords": "p / Am7<3%> <       / D.$. a  / Coda>",
+          "sign": "$",
+          "text": "<      D.. a Coda>",
+          "chords": "p / Am7",
           "rightRepeat": "true"
         },
         {
           "leftRepeat": "true",
           "rehearsalLetter": "6",
-          "chords": "@ / Fm11, <*66open>"
+          "coda": "@",
+          "chords": "/ Fm11,"
         },
         {
           "chords": "%"
@@ -17338,7 +17374,7 @@
         {
           "leftRepeat": "true",
           "rehearsalLetter": "6",
-          "chords": "68open> / Bb13"
+          "chords": "68opeN.C.> / Bb13"
         },
         {
           "chords": "%"
@@ -17393,7 +17429,8 @@
         {
           "leftRepeat": "true",
           "rehearsalLetter": "A",
-          "chords": "$ / Cmaj7"
+          "sign": "$",
+          "chords": "Cmaj7"
         },
         {
           "chords": "Abmaj7"
@@ -17439,7 +17476,7 @@
           "chords": "%"
         },
         {
-          "chords": "%< / Fine>",
+          "chords": "%",
           "rightRepeat": "true"
         },
         {
@@ -17468,7 +17505,8 @@
           "chords": "%"
         },
         {
-          "chords": "< / D.$. a  / Fine> %",
+          "sign": "$",
+          "chords": "%",
           "finalBarLine": "true"
         }
       ],
@@ -18952,7 +18990,8 @@
           "chords": "Eb, / F,"
         },
         {
-          "chords": "Gm7,@ / F,"
+          "coda": "@",
+          "chords": "Gm7, / F,"
         },
         {
           "chords": "N1 / Eb, / F,",
@@ -18992,7 +19031,8 @@
           "chords": ""
         },
         {
-          "chords": "@ / Ebmaj7"
+          "coda": "@",
+          "chords": "Ebmaj7"
         },
         {
           "chords": "Ebmaj7   / Em,"
@@ -19010,7 +19050,7 @@
           "chords": "%"
         },
         {
-          "chords": "n"
+          "chords": "N.C."
         },
         {
           "chords": "pp / F, / Gm",
@@ -19077,7 +19117,7 @@
           "chords": "%"
         },
         {
-          "chords": "%< / Fine>",
+          "chords": "%",
           "rightRepeat": "true"
         },
         {
@@ -19125,7 +19165,7 @@
           "chords": "%"
         },
         {
-          "chords": "G7   < / D. / C. a  / Fine>"
+          "chords": "G7"
         },
         {
           "chords": "Db7",
@@ -19268,7 +19308,7 @@
           "chords": "B7"
         },
         {
-          "chords": "Bbmaj7  <oos on  / A / A / B / A>"
+          "chords": "Bbmaj7"
         },
         {
           "chords": "Cm7  / F7",
@@ -19917,7 +19957,7 @@
           "chords": "/ N2 / C6"
         },
         {
-          "chords": "%< / Fine>",
+          "chords": "%",
           "rightDoubleBarLine": "true"
         },
         {
@@ -19968,7 +20008,7 @@
           "chords": "G7  / G#o7"
         },
         {
-          "chords": "Am7 < / D. / C. a 2nd ending>"
+          "chords": "Am7"
         },
         {
           "chords": "Dm7  / G7",
@@ -20042,7 +20082,7 @@
           "chords": "/ N2 / Cm69"
         },
         {
-          "chords": "%< / Fine>",
+          "chords": "%",
           "rightDoubleBarLine": "true"
         },
         {
@@ -20066,7 +20106,7 @@
           "chords": "Ab7"
         },
         {
-          "chords": "Dh7  < / D. / C. a 2nd  / End.>"
+          "chords": "Dh7"
         },
         {
           "chords": "G9#5",
@@ -20162,14 +20202,16 @@
           "chords": "Eb  / Eo7"
         },
         {
-          "chords": "Bb/ / F  / G7,@"
+          "coda": "@",
+          "chords": "Bb/ / F  / G7,"
         },
         {
           "chords": "C7  / F7",
           "rightDoubleBarLine": "true"
         },
         {
-          "chords": "@ / C7, / F7, / Bb6",
+          "coda": "@",
+          "chords": "/ C7, / F7, / Bb6",
           "finalBarLine": "true"
         }
       ],
@@ -20571,7 +20613,7 @@
           "chords": "Bb6"
         },
         {
-          "chords": "%< / Fine>",
+          "chords": "%",
           "rightDoubleBarLine": "true"
         },
         {
@@ -20619,7 +20661,7 @@
           "chords": "C7"
         },
         {
-          "chords": "Cm7 < / D. / C. a 2nd ending>"
+          "chords": "Cm7"
         },
         {
           "chords": "F7#5",
@@ -20811,7 +20853,7 @@
         {
           "rehearsalLetter": "i",
           "time": "4/4",
-          "chords": "i,< / Vamp for intro> / Bb7  / Eb7"
+          "chords": "i, / Bb7  / Eb7"
         },
         {
           "chords": "%"
@@ -20860,7 +20902,8 @@
         },
         {
           "alternateChords": "Riff",
-          "chords": "<> n<    / Fine>"
+          "text": "<   Fine>",
+          "chords": "N.C."
         },
         {
           "chords": "Bb7  / Eb7"
@@ -21384,7 +21427,7 @@
           "chords": "D7"
         },
         {
-          "chords": "G7 < / D. / C. a 3rd  / Ending> / G7us"
+          "chords": "G7  / G7us"
         },
         {
           "chords": "G7  / G7b9",
@@ -21987,7 +22030,7 @@
         },
         {
           "time": "2/4",
-          "chords": "n",
+          "chords": "N.C.",
           "rightRepeat": "true"
         }
       ],
@@ -22303,7 +22346,7 @@
           "chords": "Eo7  / Emaj7"
         },
         {
-          "chords": "Emaj7< / Fine>"
+          "chords": "Emaj7"
         },
         {
           "chords": "Eb7us"
@@ -22700,11 +22743,13 @@
           "chords": "Dm7"
         },
         {
-          "chords": "G7  @",
+          "coda": "@",
+          "chords": "G7",
           "finalBarLine": "true"
         },
         {
-          "chords": "@"
+          "coda": "@",
+          "chords": ""
         },
         {
           "chords": "C6",
@@ -23058,15 +23103,17 @@
           "chords": "Bbmaj7"
         },
         {
+          "coda": "@",
           "alternateChords": "Eb7",
-          "chords": "A7  @",
+          "chords": "A7",
           "finalBarLine": "true"
         },
         {
           "chords": ""
         },
         {
-          "chords": "@ / Em7  / F7"
+          "coda": "@",
+          "chords": "Em7  / F7"
         },
         {
           "chords": "Bbmaj7  / Db7"
@@ -23078,7 +23125,7 @@
           "chords": "Bbmaj7  / A7"
         },
         {
-          "chords": "< / Rit.> / Dmaj7  / Bb^7"
+          "chords": "Dmaj7  / Bb^7"
         },
         {
           "chords": "Gbmaj7  / D^7"
@@ -23689,11 +23736,13 @@
           "chords": "Abadd9"
         },
         {
-          "chords": "Gb7#11  @",
+          "coda": "@",
+          "chords": "Gb7#11",
           "finalBarLine": "true"
         },
         {
-          "chords": "@"
+          "coda": "@",
+          "chords": ""
         },
         {
           "chords": "Abm6, f / Ab6"
@@ -23730,7 +23779,7 @@
           "chords": "%"
         },
         {
-          "chords": "% <4x>",
+          "chords": "%",
           "rightRepeat": "true"
         },
         {
@@ -23864,13 +23913,15 @@
           "chords": "Bm"
         },
         {
+          "coda": "@",
           "alternateChords": "F#7#9",
-          "chords": "% @",
+          "chords": "%",
           "rightDoubleBarLine": "true"
         },
         {
           "leftRepeat": "true",
-          "chords": "@< / Repeat and  / Fade> / Bm"
+          "coda": "@",
+          "chords": "/ Bm"
         },
         {
           "chords": "F#7#9",
@@ -24340,7 +24391,7 @@
           "chords": "Gm7  / C7, / F6,"
         },
         {
-          "chords": "n"
+          "chords": "N.C."
         },
         {
           "chords": "%"
@@ -24352,7 +24403,7 @@
           "chords": "Gm7  / C7, / F7,"
         },
         {
-          "chords": "n"
+          "chords": "N.C."
         },
         {
           "chords": "%"
@@ -24361,13 +24412,13 @@
           "chords": "Bb6, / Am7, / G-7, / Bb-"
         },
         {
-          "chords": "n"
+          "chords": "N.C."
         },
         {
           "chords": "Fmaj, / Bb6, / A7, / Dm7"
         },
         {
-          "chords": "n"
+          "chords": "N.C."
         },
         {
           "chords": "N1 / Dm6  / D-/ / C, / Bh"
@@ -24376,7 +24427,7 @@
           "chords": "Bm7  / E7, / Amaj,"
         },
         {
-          "chords": "n"
+          "chords": "N.C."
         },
         {
           "chords": "%",
@@ -24389,7 +24440,7 @@
           "chords": "Gm7  / C7, / F6,"
         },
         {
-          "chords": "n"
+          "chords": "N.C."
         },
         {
           "chords": "%",
@@ -24398,7 +24449,8 @@
         {
           "leftRepeat": "true",
           "rehearsalLetter": "A",
-          "chords": "A<*70 $oo:> / Gm7"
+          "sign": "$",
+          "chords": "A / Gm7"
         },
         {
           "chords": "C7"
@@ -24617,16 +24669,19 @@
           "chords": "Ebmaj7"
         },
         {
+          "coda": "@",
           "alternateChords": "Abm7",
-          "chords": "% ( / Db7)@",
+          "chords": "% ( / Db7)",
           "finalBarLine": "true"
         },
         {
-          "chords": "@"
+          "coda": "@",
+          "chords": ""
         },
         {
+          "sign": "$",
           "alternateChords": "alt. changes for head",
-          "chords": "Gbmaj7  <$oo on  / A / A / B / A >"
+          "chords": "Gbmaj7"
         },
         {
           "chords": "Ebm7  / Ab7"
@@ -24700,7 +24755,8 @@
         {
           "leftDoubleBarLine": "true",
           "rehearsalLetter": "A",
-          "chords": "<$oo:> / Y / Y* / A / Fmaj7"
+          "sign": "$",
+          "chords": "/ Y / Y* / A / Fmaj7"
         },
         {
           "alternateChords": "Bb-7",
@@ -25570,7 +25626,7 @@
           "chords": "Em7  / Eb-7"
         },
         {
-          "chords": "Dm7  < / D. / C. a 3rd end.>"
+          "chords": "Dm7"
         },
         {
           "chords": "G7",
@@ -25669,7 +25725,8 @@
         },
         {
           "time": "o/ ",
-          "chords": "To  / Coda>  / Bb13,@",
+          "coda": "@",
+          "chords": "To  / Coda>  / Bb13,",
           "rightDoubleBarLine": "true"
         },
         {
@@ -25696,12 +25753,13 @@
           "chords": "Fm9"
         },
         {
-          "chords": "< / D. / C. a  / Coda> / Bb13  / Bb7#5,",
+          "chords": "Bb13  / Bb7#5,",
           "rightDoubleBarLine": "true"
         },
         {
           "leftDoubleBarLine": "true",
-          "chords": "@ / Bbm7"
+          "coda": "@",
+          "chords": "Bbm7"
         },
         {
           "chords": "Eb13b9"
@@ -26262,7 +26320,7 @@
           "chords": "C7us  / A7b9"
         },
         {
-          "chords": "Dm   < / A payed by  / Miles  / Davis>"
+          "chords": "Dm"
         },
         {
           "chords": "%",
@@ -26800,7 +26858,7 @@
           "chords": "Eb6"
         },
         {
-          "chords": "%< / Fine>",
+          "chords": "%",
           "rightRepeat": "true"
         },
         {
@@ -26851,7 +26909,8 @@
           "chords": "Gm7"
         },
         {
-          "chords": "< / D.$. a  / Fine> / C7",
+          "sign": "$",
+          "chords": "C7",
           "finalBarLine": "true"
         }
       ],
@@ -27960,7 +28019,8 @@
           "chords": "C/ / Ab"
         },
         {
-          "chords": "Dbmaj7  @"
+          "coda": "@",
+          "chords": "Dbmaj7"
         },
         {
           "chords": "Gm11  / Fadd9/ / A"
@@ -27980,7 +28040,8 @@
         },
         {
           "leftRepeat": "true",
-          "chords": "@ / Gm11  / Fadd9/ / A"
+          "coda": "@",
+          "chords": "/ Gm11  / Fadd9/ / A"
         },
         {
           "chords": "Gbmaj7#11"
@@ -28914,7 +28975,7 @@
           "chords": "F#maj7"
         },
         {
-          "chords": "G7#11  <3%>",
+          "chords": "G7#11",
           "rightRepeat": "true"
         },
         {
@@ -30571,7 +30632,7 @@
           "chords": "Bbm7,"
         },
         {
-          "chords": "Eb7  <3%>",
+          "chords": "Eb7",
           "rightRepeat": "true"
         },
         {
@@ -30914,20 +30975,22 @@
           "chords": "C7"
         },
         {
-          "chords": "Fm7  / Bb7,@"
+          "coda": "@",
+          "chords": "Fm7  / Bb7,"
         },
         {
           "chords": "Eb,  / Bb7",
           "finalBarLine": "true"
         },
         {
-          "chords": "@"
+          "coda": "@",
+          "chords": ""
         },
         {
           "chords": "Eb,  / C7"
         },
         {
-          "chords": "Fm7 < / Vamp and fade> / Bb7"
+          "chords": "Fm7  / Bb7"
         },
         {
           "chords": "Eb7  / C7",
@@ -31921,7 +31984,8 @@
           "chords": "F9  / B9"
         },
         {
-          "chords": "Bb13  @"
+          "coda": "@",
+          "chords": "Bb13"
         },
         {
           "chords": "Ebmaj7"
@@ -31932,7 +31996,8 @@
         },
         {
           "leftRepeat": "true",
-          "chords": "@ / Eb9  / Db9"
+          "coda": "@",
+          "chords": "Eb9  / Db9"
         },
         {
           "chords": "C7b9"
@@ -32834,7 +32899,7 @@
           "chords": "F#7"
         },
         {
-          "chords": "F#7#5 < / Fine>",
+          "chords": "F#7#5",
           "rightRepeat": "true"
         },
         {
@@ -32876,7 +32941,7 @@
           "chords": "%"
         },
         {
-          "chords": "F#7   < / D. / C. a  / Fine>"
+          "chords": "F#7"
         },
         {
           "chords": "F#7#5",
@@ -34068,11 +34133,13 @@
           "chords": "Bbmaj7"
         },
         {
-          "chords": "Ebmaj7  @",
+          "coda": "@",
+          "chords": "Ebmaj7",
           "finalBarLine": "true"
         },
         {
-          "chords": "@"
+          "coda": "@",
+          "chords": ""
         },
         {
           "chords": "Abmaj7"
@@ -35240,7 +35307,8 @@
           "chords": "%"
         },
         {
-          "chords": "% @"
+          "coda": "@",
+          "chords": "%"
         },
         {
           "chords": "E7"
@@ -35253,7 +35321,8 @@
           "chords": ""
         },
         {
-          "chords": "@ / E7"
+          "coda": "@",
+          "chords": "E7"
         },
         {
           "chords": "Am"
@@ -38446,7 +38515,7 @@
           "chords": "%"
         },
         {
-          "chords": "%< / D. / C. a 3rd  / Ending>"
+          "chords": "%"
         },
         {
           "chords": "Eb7  / C7b9",
@@ -38610,7 +38679,7 @@
           "chords": "Fm"
         },
         {
-          "chords": "Bb7  < / Aternate chord for solos.>"
+          "chords": "Bb7"
         },
         {
           "alternateChords": "Db7",
@@ -39310,7 +39379,8 @@
           "chords": "%"
         },
         {
-          "chords": "% @,"
+          "coda": "@",
+          "chords": "% ,"
         },
         {
           "chords": "Am7"
@@ -39361,11 +39431,12 @@
           "chords": "Am7"
         },
         {
-          "chords": "< / D. / C. a  / Coda> / D7",
+          "chords": "D7",
           "rightDoubleBarLine": "true"
         },
         {
-          "chords": "@ / Am7"
+          "coda": "@",
+          "chords": "/ Am7"
         },
         {
           "chords": "D7"
@@ -41016,7 +41087,7 @@
           "chords": "Cmaj7"
         },
         {
-          "chords": "Dh7 < / Fine> / G7b9",
+          "chords": "Dh7  / G7b9",
           "rightRepeat": "true"
         },
         {
@@ -41050,7 +41121,7 @@
           "chords": "Bb7"
         },
         {
-          "chords": "Ebmaj7 < / D. / C. a 1t ending>"
+          "chords": "Ebmaj7"
         },
         {
           "chords": "Dh7  / G7b9",
@@ -41098,10 +41169,11 @@
         },
         {
           "time": "a/k",
-          "chords": "< / Take coda 2nd time after oos>  / Db7"
+          "chords": "/ Db7"
         },
         {
-          "chords": "Eb7#9  / B7,@"
+          "coda": "@",
+          "chords": "Eb7#9  / B7,"
         },
         {
           "chords": "Emaj7#11  / A9#11,",
@@ -41110,7 +41182,8 @@
         {
           "leftRepeat": "true",
           "rehearsalLetter": "A",
-          "chords": "A<*74 $oo:> / Ebmmaj7  / Ab-7"
+          "sign": "$",
+          "chords": "A / Ebmmaj7  / Ab-7"
         },
         {
           "chords": "%"
@@ -41143,12 +41216,13 @@
           "chords": "Ebmmaj7  / Ab7"
         },
         {
-          "chords": "< / D. / C. a  / Coda> %",
+          "chords": "%",
           "rightRepeat": "true"
         },
         {
           "leftDoubleBarLine": "true",
-          "chords": "@ / Emaj7#11  / A7#11"
+          "coda": "@",
+          "chords": "/ Emaj7#11  / A7#11"
         },
         {
           "chords": "f / Eb7#9 f / Emaj7"
@@ -41616,7 +41690,8 @@
           "chords": "Cm11"
         },
         {
-          "chords": "< /> / F7< /> n",
+          "text": "< />",
+          "chords": "F7 N.C.",
           "rightDoubleBarLine": "true"
         },
         {
@@ -42005,13 +42080,15 @@
           "chords": "Gm7  / C7"
         },
         {
-          "chords": "F6  @",
+          "coda": "@",
+          "chords": "F6",
           "rightDoubleBarLine": "true"
         },
         {
           "leftDoubleBarLine": "true",
           "rehearsalLetter": "C",
-          "chords": "C@ / Bh7  / E7"
+          "coda": "@",
+          "chords": "C / Bh7  / E7"
         },
         {
           "chords": "Ah7  / D7"
@@ -42023,7 +42100,7 @@
           "chords": "C7"
         },
         {
-          "chords": "F6 <oos on  / A / A / B / A>"
+          "chords": "F6"
         },
         {
           "chords": "Gm7  / C7",
@@ -42785,7 +42862,8 @@
           "chords": "C7"
         },
         {
-          "chords": "F7  @"
+          "coda": "@",
+          "chords": "F7"
         },
         {
           "chords": "Bb6  / Dbo7"
@@ -42795,7 +42873,8 @@
           "finalBarLine": "true"
         },
         {
-          "chords": "@"
+          "coda": "@",
+          "chords": ""
         },
         {
           "chords": "C7"
@@ -43768,7 +43847,8 @@
           "chords": "C#  / Bb"
         },
         {
-          "chords": "Eb<$oo free around  / Eb>",
+          "sign": "$",
+          "chords": "Eb",
           "finalBarLine": "true"
         }
       ],
@@ -44780,7 +44860,8 @@
           "chords": "Bh7"
         },
         {
-          "chords": "E7b9  @"
+          "coda": "@",
+          "chords": "E7b9"
         },
         {
           "chords": "Am7"
@@ -44828,7 +44909,7 @@
           "chords": "Gmaj7/ / D"
         },
         {
-          "chords": "Cmaj7/ / D  / C^7 < / D. / C. a  / Coda>"
+          "chords": "Cmaj7/ / D  / C^7"
         },
         {
           "chords": "B7",
@@ -45303,7 +45384,7 @@
           "chords": "Am7  / D7"
         },
         {
-          "chords": "Bm7 < / D. / C. a 3rd  / End.> / E7",
+          "chords": "Bm7  / E7",
           "rightDoubleBarLine": "true"
         },
         {
@@ -46842,7 +46923,7 @@
           "chords": "G7"
         },
         {
-          "chords": "< / Fine>%",
+          "chords": "%",
           "rightDoubleBarLine": "true"
         },
         {
@@ -46890,7 +46971,7 @@
           "chords": "%"
         },
         {
-          "chords": "D7 < / D. / C. a 2nd  / End.>"
+          "chords": "D7"
         },
         {
           "chords": "D7#5",
@@ -47121,7 +47202,7 @@
           "chords": "N1 / Eb6"
         },
         {
-          "chords": "Gm7 < / Fine> / C7b9",
+          "chords": "Gm7  / C7b9",
           "rightRepeat": "true"
         },
         {
@@ -47176,7 +47257,7 @@
           "chords": "%"
         },
         {
-          "chords": "Fm7 < / D. / C. a 1t ending>"
+          "chords": "Fm7"
         },
         {
           "chords": "Bb7",
@@ -47277,7 +47358,8 @@
           "chords": "Cm7  / F7"
         },
         {
-          "chords": "Cm7  / F7,@"
+          "coda": "@",
+          "chords": "Cm7  / F7,"
         },
         {
           "chords": "Bb6"
@@ -47290,7 +47372,8 @@
           "chords": ""
         },
         {
-          "chords": "@ / Eh7  / Eb7"
+          "coda": "@",
+          "chords": "Eh7  / Eb7"
         },
         {
           "chords": "D7b9,  / Db7"
@@ -47492,23 +47575,25 @@
           "chords": "Bb7  / Bb7/ / D"
         },
         {
-          "chords": "Eb7  / Eo7,@"
+          "coda": "@",
+          "chords": "Eb7  / Eo7,"
         },
         {
           "chords": "Bb6/ / F  / F7"
         },
         {
-          "chords": "Bb6 <  / D. / C.> / F7",
+          "chords": "Bb6  / F7",
           "finalBarLine": "true"
         },
         {
-          "chords": "@"
+          "coda": "@",
+          "chords": ""
         },
         {
           "chords": "Bb6/ / F  / Eb9"
         },
         {
-          "chords": "Dm7 < / Origina take  / Coda every time> / G7"
+          "chords": "Dm7  / G7"
         },
         {
           "chords": "Cm7  / F7"
@@ -49117,10 +49202,11 @@
           "chords": "Gm7"
         },
         {
-          "chords": "C7  @"
+          "coda": "@",
+          "chords": "C7"
         },
         {
-          "chords": "F6 <oos on  / A / A / B / A>"
+          "chords": "F6"
         },
         {
           "chords": "%",
@@ -49644,7 +49730,7 @@
           "chords": "Bbmaj7"
         },
         {
-          "chords": "F9us < / Repeat and fade>",
+          "chords": "F9us",
           "rightRepeat": "true"
         }
       ],
@@ -50619,7 +50705,7 @@
           "chords": "/ N2 / Dm"
         },
         {
-          "chords": "%< / Fine>",
+          "chords": "%",
           "rightDoubleBarLine": "true"
         },
         {
@@ -50652,7 +50738,7 @@
           "chords": "A7b9us"
         },
         {
-          "chords": "A7b9< / D. / C. a 2nd ending>",
+          "chords": "A7b9",
           "rightDoubleBarLine": "true"
         }
       ],
@@ -51195,7 +51281,7 @@
           "chords": "Am7  / D7"
         },
         {
-          "chords": "Dm7 < / D. / C. a 3rd ending>"
+          "chords": "Dm7"
         },
         {
           "chords": "G7",
@@ -51814,7 +51900,7 @@
           "chords": "Gmaj7"
         },
         {
-          "chords": "%< / Fine>",
+          "chords": "%",
           "rightDoubleBarLine": "true"
         },
         {
@@ -51862,7 +51948,7 @@
           "chords": "B7"
         },
         {
-          "chords": "Emaj7   < / D. / C. a  / Fine>"
+          "chords": "Emaj7"
         },
         {
           "chords": "Am7  / D7",
@@ -52084,7 +52170,7 @@
           "chords": "D7"
         },
         {
-          "chords": "Gm7 < / D. / C. a 3rd ending>"
+          "chords": "Gm7"
         },
         {
           "chords": "C7",
@@ -56038,7 +56124,8 @@
           "finalBarLine": "true"
         },
         {
-          "chords": "@"
+          "coda": "@",
+          "chords": ""
         },
         {
           "chords": "f / Eb13#11",
@@ -58007,7 +58094,8 @@
           "chords": "Ebm7"
         },
         {
-          "chords": "% @"
+          "coda": "@",
+          "chords": "%"
         },
         {
           "chords": "%"
@@ -58073,14 +58161,15 @@
           "chords": "Eb7"
         },
         {
-          "chords": "D7at   < / D. / C. al  / Coda>"
+          "chords": "D7at"
         },
         {
           "chords": "G7at",
           "rightDoubleBarLine": "true"
         },
         {
-          "chords": "@   / B7#11"
+          "coda": "@",
+          "chords": "/ B7#11"
         },
         {
           "chords": "%"
@@ -59562,7 +59651,7 @@
           "chords": "Em7"
         },
         {
-          "chords": "< / D. / C. a 3rd ending> / A7"
+          "chords": "A7"
         },
         {
           "chords": "Am7"
@@ -60264,7 +60353,8 @@
           "chords": "Bmaj7/ / F#"
         },
         {
-          "chords": "F#7,@,"
+          "coda": "@",
+          "chords": "F#7,,"
         },
         {
           "chords": "Ebmaj7"
@@ -60277,7 +60367,8 @@
           "chords": ""
         },
         {
-          "chords": "@ / Em7"
+          "coda": "@",
+          "chords": "Em7"
         },
         {
           "chords": "A7"
@@ -60687,7 +60778,7 @@
           "chords": "Abo7/ / Eb"
         },
         {
-          "chords": "< / D. / C. a 3rd ending>%"
+          "chords": "%"
         },
         {
           "chords": "Dh7"
@@ -61646,7 +61737,7 @@
           "chords": "Gus"
         },
         {
-          "chords": "% <8x>",
+          "chords": "%",
           "rightRepeat": "true"
         },
         {
@@ -61703,18 +61794,20 @@
         },
         {
           "alternateChords": "use alternate changes",
-          "chords": "<oos on  / A / B > / Cm7  / Ab7"
+          "chords": "Cm7  / Ab7"
         },
         {
           "chords": "D7#9  / G7#5"
         },
         {
-          "chords": "Cm7  @",
+          "coda": "@",
+          "chords": "Cm7",
           "rightDoubleBarLine": "true"
         },
         {
           "leftRepeat": "true",
-          "chords": "Y@ / Cm7  / Abmaj9"
+          "coda": "@",
+          "chords": "Y / Cm7  / Abmaj9"
         },
         {
           "chords": "Dbmaj7  / G7#5",
@@ -61846,7 +61939,8 @@
           "chords": "Gmaj7  / F#m7"
         },
         {
-          "chords": "Gmaj7  / F#m7,@"
+          "coda": "@",
+          "chords": "Gmaj7  / F#m7,"
         },
         {
           "chords": "Gmaj7  / G/ / A"
@@ -61857,7 +61951,8 @@
         },
         {
           "leftRepeat": "true",
-          "chords": "@ / Gmaj, / G/ / A"
+          "coda": "@",
+          "chords": "/ Gmaj, / G/ / A"
         },
         {
           "chords": "Bm7, / D7/ / A"
@@ -61992,9 +62087,6 @@
           "chords": "%"
         },
         {
-          "chords": "%<4>"
-        },
-        {
           "chords": "%"
         },
         {
@@ -62004,7 +62096,10 @@
           "chords": "%"
         },
         {
-          "chords": "%<8>"
+          "chords": "%"
+        },
+        {
+          "chords": "%"
         },
         {
           "chords": "F#m7"
@@ -62077,9 +62172,6 @@
           "chords": "%"
         },
         {
-          "chords": "%<4>"
-        },
-        {
           "chords": "%"
         },
         {
@@ -62089,7 +62181,10 @@
           "chords": "%"
         },
         {
-          "chords": "%<8>"
+          "chords": "%"
+        },
+        {
+          "chords": "%"
         },
         {
           "chords": "F#m7"
@@ -62634,7 +62729,7 @@
           "chords": "/ N2 / Fm7  / Bb7"
         },
         {
-          "chords": "Eb < / Fine>",
+          "chords": "Eb",
           "rightDoubleBarLine": "true"
         },
         {
@@ -62658,7 +62753,7 @@
           "chords": "F7"
         },
         {
-          "chords": "Fm7  < / D. / C. a 2nd  / End.>"
+          "chords": "Fm7"
         },
         {
           "chords": "Bb7",
@@ -62841,7 +62936,7 @@
         {
           "time": "4/4",
           "alternateChords": "for oos only",
-          "chords": "Cm7 <3 / X > / Bb-7"
+          "chords": "Cm7  / Bb-7"
         },
         {
           "chords": "E7#9#5  / A7b9#5",
@@ -63763,7 +63858,7 @@
           "chords": "Eb7"
         },
         {
-          "chords": "Gm7 < / D. / C. a 3rd ending> / C7"
+          "chords": "Gm7  / C7"
         },
         {
           "chords": "Eh7  / A7b9",
@@ -64523,7 +64618,7 @@
           "chords": "Bb6"
         },
         {
-          "chords": "%< / Fine>",
+          "chords": "%",
           "rightDoubleBarLine": "true"
         },
         {
@@ -64571,7 +64666,7 @@
           "chords": "C7"
         },
         {
-          "chords": "Cm7 < / D. / C. a 2nd ending>"
+          "chords": "Cm7"
         },
         {
           "chords": "F7#5",
@@ -65767,7 +65862,8 @@
           "chords": "Ebmaj7"
         },
         {
-          "chords": "Am7  / D7,@"
+          "coda": "@",
+          "chords": "Am7  / D7,"
         },
         {
           "chords": "Gmaj7"
@@ -65777,7 +65873,8 @@
           "finalBarLine": "true"
         },
         {
-          "chords": "@"
+          "coda": "@",
+          "chords": ""
         },
         {
           "chords": "F7#11"
@@ -66931,7 +67028,8 @@
           "chords": "Fmaj7"
         },
         {
-          "chords": "Bb7  @"
+          "coda": "@",
+          "chords": "Bb7"
         },
         {
           "chords": "Cm,"
@@ -67011,11 +67109,12 @@
           "chords": "G7"
         },
         {
-          "chords": "< / D. / C. a  / Coda> / G7b9",
+          "chords": "G7b9",
           "rightDoubleBarLine": "true"
         },
         {
-          "chords": "@ / Am7"
+          "coda": "@",
+          "chords": "/ Am7"
         },
         {
           "chords": "Bb7"
@@ -67615,7 +67714,7 @@
           "chords": "Cmaj7"
         },
         {
-          "chords": "G7us < / Fine>",
+          "chords": "G7us",
           "rightRepeat": "true"
         },
         {
@@ -67650,7 +67749,7 @@
           "chords": "D/ / F#"
         },
         {
-          "chords": "G7us   < / D. / C. a  / Fine>"
+          "chords": "G7us"
         },
         {
           "chords": "%",
@@ -68640,15 +68739,17 @@
           "chords": "r"
         },
         {
-          "chords": "@",
+          "coda": "@",
+          "chords": "",
           "rightRepeat": "true"
         },
         {
           "leftRepeat": "true",
-          "chords": "Y@ / F#m7/ / B"
+          "coda": "@",
+          "chords": "Y / F#m7/ / B"
         },
         {
-          "chords": "B7 <4%>",
+          "chords": "B7",
           "rightRepeat": "true"
         },
         {
@@ -68656,7 +68757,7 @@
           "chords": "/ Ebm/ / Ab"
         },
         {
-          "chords": "Ab7 <4%>",
+          "chords": "Ab7",
           "rightRepeat": "true"
         }
       ],
@@ -69729,7 +69830,8 @@
           "chords": "Ab  / Bbm7"
         },
         {
-          "chords": "Bbm7  @",
+          "coda": "@",
+          "chords": "Bbm7",
           "rightRepeat": "true"
         },
         {
@@ -69780,12 +69882,13 @@
           "chords": "Ab  / Bbm7"
         },
         {
-          "chords": "< / D. / C. a  / Coda> / Bbm7",
+          "chords": "Bbm7",
           "rightDoubleBarLine": "true"
         },
         {
           "leftDoubleBarLine": "true",
-          "chords": "@ / Bbm7"
+          "coda": "@",
+          "chords": "Bbm7"
         },
         {
           "chords": "%"
@@ -69882,7 +69985,7 @@
           "chords": "Ab  / Bbm7"
         },
         {
-          "chords": "Bbm7< / Fine>",
+          "chords": "Bbm7",
           "rightRepeat": "true"
         },
         {
@@ -69933,7 +70036,7 @@
           "chords": "F7us"
         },
         {
-          "chords": "< / D. / C. a  / Fine> / F7",
+          "chords": "F7",
           "rightDoubleBarLine": "true"
         }
       ],
@@ -70532,11 +70635,13 @@
           "chords": "Cm7/ / F"
         },
         {
-          "chords": "Cm7/ / F  @,",
+          "coda": "@",
+          "chords": "Cm7/ / F  ,",
           "finalBarLine": "true"
         },
         {
-          "chords": "@"
+          "coda": "@",
+          "chords": ""
         },
         {
           "chords": "F6"
@@ -70569,7 +70674,7 @@
           "chords": "Bbm7/ / F"
         },
         {
-          "chords": "< / Open> / F7b9us",
+          "chords": "F7b9us",
           "rightRepeat": "true"
         }
       ],
@@ -70597,13 +70702,13 @@
           "chords": "Gm11"
         },
         {
-          "chords": "</    /    /> / Fm11  / Bb7"
+          "chords": "Fm11  / Bb7"
         },
         {
           "chords": "Eb6"
         },
         {
-          "chords": "</    /    /> / Bbm7  / Eb7"
+          "chords": "Bbm7  / Eb7"
         },
         {
           "chords": "Ab6"
@@ -70648,19 +70753,19 @@
           "chords": "Cm7"
         },
         {
-          "chords": "</    /    /> / Fm7  / Bb7"
+          "chords": "Fm7  / Bb7"
         },
         {
           "chords": "Ebmaj7"
         },
         {
-          "chords": "</    /    /> / Fm11  / Bb7"
+          "chords": "Fm11  / Bb7"
         },
         {
           "chords": "Ebmaj7"
         },
         {
-          "chords": "</    /    /> / Abmaj7  / Ah7"
+          "chords": "Abmaj7  / Ah7"
         },
         {
           "chords": "Bb7"
@@ -70672,7 +70777,7 @@
           "chords": "Cm7"
         },
         {
-          "chords": "</    /    /> / Fm11  / Bb7"
+          "chords": "Fm11  / Bb7"
         },
         {
           "chords": "Ebmaj7"
@@ -70681,10 +70786,10 @@
           "chords": "Ab6"
         },
         {
-          "chords": "</    /    /> / Gm7  / C7b9"
+          "chords": "Gm7  / C7b9"
         },
         {
-          "chords": "</    /    /> / Fm11  / Bb7b9"
+          "chords": "Fm11  / Bb7b9"
         },
         {
           "chords": "N1 / Eb6",
@@ -70700,7 +70805,7 @@
           "chords": "Eb6/ / Bb"
         },
         {
-          "chords": "</    /    /> / Fm7  / Bb7"
+          "chords": "Fm7  / Bb7"
         },
         {
           "chords": "Ebmaj7"
@@ -70709,10 +70814,10 @@
           "chords": "Ab6"
         },
         {
-          "chords": "</    /    /> / Gm7  / C7b9"
+          "chords": "Gm7  / C7b9"
         },
         {
-          "chords": "</    /    /> / Fm7  / Bb7b9"
+          "chords": "Fm7  / Bb7b9"
         },
         {
           "chords": "Eb6",
@@ -70789,14 +70894,16 @@
           "chords": "Emaj7#11"
         },
         {
-          "chords": "@ / Ebmaj7,"
+          "coda": "@",
+          "chords": "Ebmaj7,"
         },
         {
           "chords": "%",
           "rightDoubleBarLine": "true"
         },
         {
-          "chords": "@ / Ebmaj7,"
+          "coda": "@",
+          "chords": "/ Ebmaj7,"
         },
         {
           "chords": "Gm7,  / C7b9,"
@@ -71155,7 +71262,8 @@
           "chords": "Dbm6"
         },
         {
-          "chords": "Ch7  @"
+          "coda": "@",
+          "chords": "Ch7"
         },
         {
           "chords": "F7"
@@ -71226,7 +71334,8 @@
           "chords": ""
         },
         {
-          "chords": "@ / F7"
+          "coda": "@",
+          "chords": "F7"
         },
         {
           "chords": "Dh7"
@@ -71320,7 +71429,7 @@
           "chords": "Bbm6"
         },
         {
-          "chords": "< / Fine>%",
+          "chords": "%",
           "rightRepeat": "true"
         },
         {
@@ -71368,7 +71477,7 @@
           "chords": "Gh7  / C7b9"
         },
         {
-          "chords": "F#m7  / B7 < / D. / C. a  / Fine>"
+          "chords": "F#m7  / B7"
         },
         {
           "chords": "Fh7  / Bb7",
@@ -71970,7 +72079,7 @@
           "chords": "Fm7"
         },
         {
-          "chords": "Bb7< / Fine>",
+          "chords": "Bb7",
           "rightRepeat": "true"
         },
         {
@@ -72031,7 +72140,7 @@
           "chords": "C7"
         },
         {
-          "chords": "Fm7 < / D. / C. a 1t  / Ending>"
+          "chords": "Fm7"
         },
         {
           "chords": "Bb7",
@@ -72255,7 +72364,7 @@
           "chords": "%"
         },
         {
-          "chords": "Fm7 < / D. / C. a 3rd  / Ending>"
+          "chords": "Fm7"
         },
         {
           "chords": "Bb7",
@@ -73725,7 +73834,8 @@
         {
           "leftDoubleBarLine": "true",
           "rehearsalLetter": "A",
-          "chords": "$ / F6"
+          "sign": "$",
+          "chords": "F6"
         },
         {
           "chords": "%"
@@ -73746,7 +73856,8 @@
           "chords": "Am7"
         },
         {
-          "chords": "D7  @"
+          "coda": "@",
+          "chords": "D7"
         },
         {
           "chords": "Gm7"
@@ -73797,12 +73908,14 @@
           "chords": "Eb9"
         },
         {
-          "chords": "< / D.$. a  / Coda> / C7",
+          "sign": "$",
+          "chords": "C7",
           "rightDoubleBarLine": "true"
         },
         {
           "leftDoubleBarLine": "true",
-          "chords": "@ / Bbmaj7"
+          "coda": "@",
+          "chords": "Bbmaj7"
         },
         {
           "chords": "Bo7"
@@ -73935,7 +74048,8 @@
           "chords": "E7b9"
         },
         {
-          "chords": "Am  @"
+          "coda": "@",
+          "chords": "Am"
         },
         {
           "chords": "Bh7  / E7b9",
@@ -73945,7 +74059,8 @@
           "chords": ""
         },
         {
-          "chords": "@ / Am"
+          "coda": "@",
+          "chords": "Am"
         },
         {
           "chords": "Dm7  / A-7"
@@ -74544,7 +74659,7 @@
           "chords": "Gm7  / C7"
         },
         {
-          "chords": "Cm7 < / D. / C. a 3rd  / Ending> / F7"
+          "chords": "Cm7  / F7"
         },
         {
           "chords": "Fm7  / Bb7",
@@ -74687,7 +74802,8 @@
           "chords": "Gm7"
         },
         {
-          "chords": "F#h7  @"
+          "coda": "@",
+          "chords": "F#h7"
         },
         {
           "chords": "F13",
@@ -74696,7 +74812,8 @@
         {
           "leftRepeat": "true",
           "rehearsalLetter": "B",
-          "chords": "<$oo> / Em7"
+          "sign": "$",
+          "chords": "Em7"
         },
         {
           "chords": "A7"
@@ -74721,7 +74838,8 @@
           "rightRepeat": "true"
         },
         {
-          "chords": "Y @ / Fmaj7",
+          "coda": "@",
+          "chords": "Y  / Fmaj7",
           "finalBarLine": "true"
         }
       ],
@@ -74784,19 +74902,21 @@
           "chords": "Ebm7"
         },
         {
-          "chords": "Gb7us  @",
+          "coda": "@",
+          "chords": "Gb7us",
           "rightRepeat": "true"
         },
         {
           "leftRepeat": "true",
+          "coda": "@",
           "alternateChords": "on out choru only ",
-          "chords": "< / Latin  / Fee >               @ / Abm11"
+          "chords": "/ Abm11"
         },
         {
           "chords": "Bb7b9b13"
         },
         {
-          "chords": "Ebm7  <repeat and fade>"
+          "chords": "Ebm7"
         },
         {
           "chords": "Gb7us",
@@ -75091,8 +75211,9 @@
           "chords": "Fm6"
         },
         {
+          "coda": "@",
           "alternateChords": "Bb7",
-          "chords": "% @"
+          "chords": "%"
         },
         {
           "chords": "Em7"
@@ -75129,14 +75250,15 @@
           "chords": "Ebo7"
         },
         {
-          "chords": "Dm7  < / D. / C. a  / Coda>"
+          "chords": "Dm7"
         },
         {
           "chords": "G7#5",
           "rightDoubleBarLine": "true"
         },
         {
-          "chords": "@  / Em7  / A7b13"
+          "coda": "@",
+          "chords": "/ Em7  / A7b13"
         },
         {
           "chords": "Dm7  / G7"
@@ -75463,7 +75585,8 @@
           "chords": "Gbmaj7  / B9"
         },
         {
-          "chords": "Gb/ / Ab  / Ab/ / Bb,@",
+          "coda": "@",
+          "chords": "Gb/ / Ab  / Ab/ / Bb,",
           "rightRepeat": "true"
         },
         {
@@ -75487,17 +75610,19 @@
           "chords": "A/ / B  / B/ / C#"
         },
         {
-          "chords": "Gb/ / Ab  / Ab/ / Bb < / D.$. a  / Coda>",
+          "sign": "$",
+          "chords": "Gb/ / Ab  / Ab/ / Bb",
           "rightDoubleBarLine": "true"
         },
         {
           "leftDoubleBarLine": "true",
           "time": "2/4",
-          "chords": ",@, / T24 / Ab/ / Bb"
+          "coda": "@",
+          "chords": ",, / T24 / Ab/ / Bb"
         },
         {
           "time": "4/4",
-          "chords": "Ab  / Abo< / Vamp  and  / Fade>"
+          "chords": "Ab  / Abo"
         },
         {
           "chords": "Ebmaj7  / Eb7",
@@ -75824,7 +75949,8 @@
           "chords": "Em7  / A7b9"
         },
         {
-          "chords": "Dm7  / G7b9,@"
+          "coda": "@",
+          "chords": "Dm7  / G7b9,"
         },
         {
           "chords": "C6  / A7#5",
@@ -75834,7 +75960,8 @@
           "chords": ""
         },
         {
-          "chords": "@ / Em7  / A7#5"
+          "coda": "@",
+          "chords": "Em7  / A7#5"
         },
         {
           "chords": "Dm7  / G7b9"
@@ -75941,7 +76068,8 @@
           "chords": "7+*"
         },
         {
-          "chords": "Eh7  @"
+          "coda": "@",
+          "chords": "Eh7"
         },
         {
           "chords": "A7"
@@ -75961,7 +76089,8 @@
         },
         {
           "leftDoubleBarLine": "true",
-          "chords": "@ / A7"
+          "coda": "@",
+          "chords": "A7"
         },
         {
           "chords": "Dm7"
@@ -76248,7 +76377,7 @@
           "chords": "Bm7  / E7"
         },
         {
-          "chords": "Cm7 <oos on  / A / A / B / A> / F7"
+          "chords": "Cm7  / F7"
         },
         {
           "chords": "Bbmaj7",
@@ -76547,12 +76676,14 @@
           "chords": "Fmmaj7"
         },
         {
-          "chords": "C7#9b5  @",
+          "coda": "@",
+          "chords": "C7#9b5",
           "rightDoubleBarLine": "true"
         },
         {
           "leftDoubleBarLine": "true",
-          "chords": "@ / Fm7"
+          "coda": "@",
+          "chords": "/ Fm7"
         },
         {
           "chords": "Gh7  / C7"
@@ -77103,16 +77234,10 @@
         {
           "rehearsalLetter": "A",
           "time": "4/4",
-          "chords": "n  / Bb"
+          "chords": "N.C.  / Bb"
         },
         {
-          "chords": "F,n"
-        },
-        {
-          "chords": "r"
-        },
-        {
-          "chords": ""
+          "chords": "F,N.C."
         },
         {
           "chords": "r"
@@ -77124,7 +77249,13 @@
           "chords": "r"
         },
         {
-          "chords": "< / Fine>",
+          "chords": ""
+        },
+        {
+          "chords": "r"
+        },
+        {
+          "chords": "",
           "rightRepeat": "true"
         },
         {
@@ -77151,13 +77282,14 @@
           "chords": "Gh7"
         },
         {
-          "chords": "< / D. / C. a  / Fine> / C7b9",
+          "chords": "C7b9",
           "rightDoubleBarLine": "true"
         },
         {
           "leftRepeat": "true",
           "rehearsalLetter": "A",
-          "chords": "* / A< $oo:> / Fm7  / Ab7"
+          "sign": "$",
+          "chords": "* / A / Fm7  / Ab7"
         },
         {
           "chords": "G7  / C7b9"
@@ -77178,7 +77310,7 @@
           "chords": "r"
         },
         {
-          "chords": "< / Fine>",
+          "chords": "",
           "rightRepeat": "true"
         },
         {
@@ -77205,7 +77337,8 @@
           "chords": "Gh7"
         },
         {
-          "chords": "< / D.$. a  / Fine> / C7b9",
+          "sign": "$",
+          "chords": "C7b9",
           "rightDoubleBarLine": "true"
         }
       ],
@@ -77294,10 +77427,10 @@
           "chords": "Gm7/ / Bb  / F-7/ / Bb"
         },
         {
-          "chords": "Eb6 n"
+          "chords": "Eb6 N.C."
         },
         {
-          "chords": "n",
+          "chords": "N.C.",
           "finalBarLine": "true"
         }
       ],
@@ -77474,7 +77607,8 @@
           "chords": "Gm7  / C7b9"
         },
         {
-          "chords": "Fm7 < / Coda at time only> / Bb7,@"
+          "coda": "@",
+          "chords": "Fm7  / Bb7,"
         },
         {
           "chords": "Eb6  / Fm7, / Bb7,",
@@ -77482,7 +77616,8 @@
         },
         {
           "leftDoubleBarLine": "true",
-          "chords": "@ / Eb6"
+          "coda": "@",
+          "chords": "Eb6"
         },
         {
           "chords": "Fh7  / Bb7b9"
@@ -77826,7 +77961,7 @@
           "chords": "%"
         },
         {
-          "chords": "< / Fm in oos> / Fmaj7  / F-"
+          "chords": "Fmaj7  / F-"
         },
         {
           "chords": "Fm"
@@ -77880,7 +78015,7 @@
           "chords": "%"
         },
         {
-          "chords": "< / Fm in oos> / Fmaj7  / F-"
+          "chords": "Fmaj7  / F-"
         },
         {
           "chords": "Fm"
@@ -77889,7 +78024,8 @@
           "chords": "Bbm"
         },
         {
-          "chords": "Ebm  @"
+          "coda": "@",
+          "chords": "Ebm"
         },
         {
           "chords": "Fm  / Fmaj7"
@@ -77902,7 +78038,8 @@
           "chords": "Y"
         },
         {
-          "chords": "@ / Fm  / Fmaj7"
+          "coda": "@",
+          "chords": "Fm  / Fmaj7"
         },
         {
           "chords": "Fmaj7"
@@ -78307,20 +78444,22 @@
           "chords": "%"
         },
         {
-          "chords": "E7b13,  @",
+          "coda": "@",
+          "chords": "E7b13,",
           "finalBarLine": "true"
         },
         {
           "chords": ""
         },
         {
-          "chords": "@ / Am7  / B-7/ / E,"
+          "coda": "@",
+          "chords": "Am7  / B-7/ / E,"
         },
         {
           "chords": "%"
         },
         {
-          "chords": "% < / Open unti cue>"
+          "chords": "%"
         },
         {
           "chords": "%",
@@ -79326,7 +79465,7 @@
           "chords": "/ N2 / Eb69"
         },
         {
-          "chords": "%< / Fine>",
+          "chords": "%",
           "rightDoubleBarLine": "true"
         },
         {
@@ -79377,7 +79516,7 @@
           "chords": "B7"
         },
         {
-          "chords": "Bb7  < / D. / C. a 2nd  / End.>"
+          "chords": "Bb7"
         },
         {
           "chords": "Bb7",
@@ -81727,7 +81866,7 @@
           "chords": "Am7  / D-7"
         },
         {
-          "chords": "Am7, / D7,< / D. / C. a 3rd  / Ending>l / G7"
+          "chords": "Am7, / D7,l / G7"
         },
         {
           "chords": "C7us  / C7#5",
@@ -81789,7 +81928,8 @@
         {
           "leftRepeat": "true",
           "rehearsalLetter": "A",
-          "chords": "A$ / C"
+          "sign": "$",
+          "chords": "A / C"
         },
         {
           "chords": "C"
@@ -81834,7 +81974,8 @@
           "chords": "Fm7"
         },
         {
-          "chords": "N1 / G7b9 @",
+          "coda": "@",
+          "chords": "N1 / G7b9",
           "rightRepeat": "true"
         },
         {
@@ -81887,12 +82028,14 @@
           "chords": "G7us"
         },
         {
-          "chords": "< / D.$. a  / Coda> / G7",
+          "sign": "$",
+          "chords": "G7",
           "rightDoubleBarLine": "true"
         },
         {
           "leftRepeat": "true",
-          "chords": "@ / C"
+          "coda": "@",
+          "chords": "C"
         },
         {
           "chords": "C"
@@ -82003,7 +82146,7 @@
           "chords": "G7"
         },
         {
-          "chords": "F/ / C < / D. / C. a 2nd ending>"
+          "chords": "F/ / C"
         },
         {
           "alternateChords": "F/G",
@@ -82075,14 +82218,16 @@
           "chords": "B7#11/ / Eb  / A7#11/ / Eb"
         },
         {
-          "chords": "Abmaj7/ / Eb  @",
+          "coda": "@",
+          "chords": "Abmaj7/ / Eb",
           "finalBarLine": "true"
         },
         {
           "chords": ""
         },
         {
-          "chords": "@ / B7#11/ / Eb  / A7#11/ / Eb"
+          "coda": "@",
+          "chords": "B7#11/ / Eb  / A7#11/ / Eb"
         },
         {
           "chords": "Abmaj7/ / Eb"
@@ -82494,7 +82639,7 @@
           "chords": "Ah7  / D7b9"
         },
         {
-          "chords": "G7 < / D. / C. a 3rd ending>"
+          "chords": "G7"
         },
         {
           "chords": "Gm7  / C7",
@@ -83255,7 +83400,8 @@
           "chords": "Bbmmaj7"
         },
         {
-          "chords": "% @",
+          "coda": "@",
+          "chords": "%",
           "rightRepeat": "true"
         },
         {
@@ -83303,7 +83449,7 @@
           "chords": "Ab7"
         },
         {
-          "chords": "Dbmaj7   < / D. / C. a  / Coda>"
+          "chords": "Dbmaj7"
         },
         {
           "chords": "Ch7  / F7b9",
@@ -83311,7 +83457,8 @@
         },
         {
           "leftDoubleBarLine": "true",
-          "chords": "@ / Bbmmaj7"
+          "coda": "@",
+          "chords": "Bbmmaj7"
         },
         {
           "chords": "Abmmaj7"
@@ -83329,10 +83476,10 @@
           "chords": "%"
         },
         {
-          "chords": "Bbmmaj7 n"
+          "chords": "Bbmmaj7 N.C."
         },
         {
-          "chords": "n",
+          "chords": "N.C.",
           "finalBarLine": "true"
         }
       ],
@@ -83950,11 +84097,13 @@
           "chords": "Eh7  / A7b9"
         },
         {
-          "chords": "Dm  @",
+          "coda": "@",
+          "chords": "Dm",
           "finalBarLine": "true"
         },
         {
-          "chords": "@"
+          "coda": "@",
+          "chords": ""
         },
         {
           "chords": "Eh7"
@@ -85171,17 +85320,20 @@
           "chords": "Cm7"
         },
         {
-          "chords": "% @",
+          "coda": "@",
+          "chords": "%",
           "finalBarLine": "true"
         },
         {
-          "chords": "@"
+          "coda": "@",
+          "chords": ""
         },
         {
           "chords": "Cm7"
         },
         {
-          "chords": "< /> / Cm7</> </> </> / Bb-,"
+          "text": "</>",
+          "chords": "Cm7   / Bb-,"
         },
         {
           "chords": "Abm7"
@@ -88587,7 +88739,8 @@
           "chords": "/ N2 / Em7  / Ebh7"
         },
         {
-          "chords": "Dm7  / G9,@"
+          "coda": "@",
+          "chords": "Dm7  / G9,"
         },
         {
           "chords": "Cmaj7"
@@ -88600,7 +88753,8 @@
           "chords": ""
         },
         {
-          "chords": "@ / Em7  / A13"
+          "coda": "@",
+          "chords": "Em7  / A13"
         },
         {
           "chords": "Dm7  / G9"
@@ -89042,7 +89196,7 @@
           "chords": "Fm7"
         },
         {
-          "chords": "Bb7#5< / Fine>",
+          "chords": "Bb7#5",
           "rightRepeat": "true"
         },
         {
@@ -89109,7 +89263,7 @@
           "chords": "%"
         },
         {
-          "chords": "C7  < / D. / C. a 1t ending>"
+          "chords": "C7"
         },
         {
           "chords": "F7  / Bb7",
@@ -90399,7 +90553,7 @@
           "rightRepeat": "true"
         },
         {
-          "chords": "/ N2 / Bb7, / A7,< / Fine> / Dm7",
+          "chords": "/ N2 / Bb7, / A7, / Dm7",
           "rightDoubleBarLine": "true"
         },
         {
@@ -90423,7 +90577,7 @@
           "chords": "%"
         },
         {
-          "chords": "Bb7 < / D. / C. a 2nd ending>"
+          "chords": "Bb7"
         },
         {
           "chords": "A7b9",
@@ -90604,7 +90758,7 @@
         },
         {
           "alternateChords": "Cm7",
-          "chords": "F7< / Fine>  ( / F7)",
+          "chords": "F7  ( / F7)",
           "rightRepeat": "true"
         },
         {
@@ -90662,7 +90816,7 @@
           "chords": "%"
         },
         {
-          "chords": "Dm7 < / D. / C. a 1t ending>"
+          "chords": "Dm7"
         },
         {
           "chords": "G7",
@@ -91268,7 +91422,8 @@
           "chords": "G7"
         },
         {
-          "chords": "C7  @"
+          "coda": "@",
+          "chords": "C7"
         },
         {
           "chords": "Dm7  / G7",
@@ -91276,7 +91431,8 @@
         },
         {
           "leftDoubleBarLine": "true",
-          "chords": "@ / Dm7  / G7"
+          "coda": "@",
+          "chords": "Dm7  / G7"
         },
         {
           "chords": "C7",
@@ -92639,7 +92795,7 @@
           "chords": "Dm, / G13,pp"
         },
         {
-          "chords": ",n",
+          "chords": ",N.C.",
           "finalBarLine": "true"
         }
       ],
@@ -93594,7 +93750,8 @@
           "chords": "Fm7  / Ab6"
         },
         {
-          "chords": "@ / Gm7  / C7"
+          "coda": "@",
+          "chords": "Gm7  / C7"
         },
         {
           "chords": "Fm7  / Bb13",
@@ -93604,7 +93761,8 @@
           "chords": ""
         },
         {
-          "chords": "@ / Gm7  / C7"
+          "coda": "@",
+          "chords": "Gm7  / C7"
         },
         {
           "chords": "Fm7  / Bb13"
@@ -94054,7 +94212,8 @@
           "chords": "Em7  / F#7"
         },
         {
-          "chords": "Bm7  / E7,@,"
+          "coda": "@",
+          "chords": "Bm7  / E7,,"
         },
         {
           "chords": "Bb7#11"
@@ -94106,7 +94265,8 @@
           "chords": ""
         },
         {
-          "chords": "@ / Bb7#11"
+          "coda": "@",
+          "chords": "Bb7#11"
         },
         {
           "chords": "f / Eb9"
@@ -94202,7 +94362,8 @@
           "chords": "Am7"
         },
         {
-          "chords": "D13  @"
+          "coda": "@",
+          "chords": "D13"
         },
         {
           "chords": "G6"
@@ -94221,7 +94382,8 @@
           "chords": ""
         },
         {
-          "chords": "@ / G6"
+          "coda": "@",
+          "chords": "G6"
         },
         {
           "chords": "B7/ / F#"
@@ -94476,7 +94638,7 @@
           "chords": "Gm"
         },
         {
-          "chords": "%< / Fine>",
+          "chords": "%",
           "rightDoubleBarLine": "true"
         },
         {
@@ -94500,7 +94662,7 @@
           "chords": "%"
         },
         {
-          "chords": "Dm < / D. / C. a 2nd ending>"
+          "chords": "Dm"
         },
         {
           "chords": "D7b9",
@@ -94586,7 +94748,7 @@
           "chords": ""
         },
         {
-          "chords": "< / Keep repeating for head> / Cm11"
+          "chords": "Cm11"
         },
         {
           "chords": "Bbm11"
@@ -94600,7 +94762,8 @@
         },
         {
           "leftRepeat": "true",
-          "chords": "<$oo:> / Y / Y / Cm7"
+          "sign": "$",
+          "chords": "Y / Y / Cm7"
         },
         {
           "chords": "Bbm7  / Eb7"
@@ -95600,7 +95763,8 @@
         {
           "leftRepeat": "true",
           "rehearsalLetter": "A",
-          "chords": "A$ / Ebm7  / Eb-7/ / Db"
+          "sign": "$",
+          "chords": "A / Ebm7  / Eb-7/ / Db"
         },
         {
           "alternateChords": "Ch7",
@@ -95630,7 +95794,7 @@
           "chords": "/ N2 / Ch, / B7, / Bb7sus"
         },
         {
-          "chords": "Eb6 < / Fine>",
+          "chords": "Eb6",
           "rightDoubleBarLine": "true"
         },
         {
@@ -95654,8 +95818,9 @@
           "chords": "Ch7  / F7"
         },
         {
+          "sign": "$",
           "alternateChords": "Bbm7",
-          "chords": "Db9 ( / Eb7)< / D.$. a 2nd ending> / B9( / Ab-7) ( / Db7)"
+          "chords": "Db9 ( / Eb7) / B9( / Ab-7) ( / Db7)"
         },
         {
           "alternateChords": "F#-7",
@@ -95664,7 +95829,8 @@
         },
         {
           "leftDoubleBarLine": "true",
-          "chords": "@ / Ch7  / F7"
+          "coda": "@",
+          "chords": "Ch7  / F7"
         },
         {
           "chords": "Ch7  / F7"
@@ -95846,7 +96012,8 @@
           "chords": "Abmaj7  ( / B-7) ( / C-7)"
         },
         {
-          "chords": "Bbm7  / E13,@"
+          "coda": "@",
+          "chords": "Bbm7  / E13,"
         },
         {
           "chords": ""
@@ -95859,7 +96026,9 @@
           "chords": ""
         },
         {
-          "chords": "@</> / Gb69  </> / B7b9, </> / Bb7b9"
+          "coda": "@",
+          "text": "</>",
+          "chords": "Gb69   / B7b9,  / Bb7b9"
         },
         {
           "chords": "A7b5"
@@ -96235,7 +96404,8 @@
           "chords": "%"
         },
         {
-          "chords": "G7b5 <$oo  / A  / B  / C  / B>"
+          "sign": "$",
+          "chords": "G7b5"
         },
         {
           "chords": "%",
@@ -96609,7 +96779,8 @@
           "chords": "Dm11"
         },
         {
-          "chords": "Gsus,@ / G7,"
+          "coda": "@",
+          "chords": "Gsus, / G7,"
         },
         {
           "chords": "Cmaj7/ / G"
@@ -96628,7 +96799,8 @@
           "chords": ""
         },
         {
-          "chords": "@ / Cmaj7/ / G"
+          "coda": "@",
+          "chords": "Cmaj7/ / G"
         },
         {
           "chords": "G13us"
@@ -96828,7 +97000,7 @@
           "chords": "/ N2 / Cmaj7"
         },
         {
-          "chords": "%< / Fine>",
+          "chords": "%",
           "rightDoubleBarLine": "true"
         },
         {
@@ -96852,7 +97024,7 @@
           "chords": "Bb7"
         },
         {
-          "chords": "Ebmaj7 < / D. / C. a 2nd ending>"
+          "chords": "Ebmaj7"
         },
         {
           "chords": "Dm7  / G7",
@@ -97267,7 +97439,8 @@
         {
           "leftRepeat": "true",
           "rehearsalLetter": "A",
-          "chords": ",$,* / A / Em9"
+          "sign": "$",
+          "chords": ",,* / A / Em9"
         },
         {
           "chords": "%"
@@ -97343,20 +97516,23 @@
           "chords": "Em9"
         },
         {
-          "chords": "A9us  @"
+          "coda": "@",
+          "chords": "A9us"
         },
         {
           "chords": "D  / Am7"
         },
         {
-          "chords": "D, <  / D.$.> / B7#9#5",
+          "sign": "$",
+          "chords": "D,  / B7#9#5",
           "finalBarLine": "true"
         },
         {
           "chords": ""
         },
         {
-          "chords": "@ / C9#11"
+          "coda": "@",
+          "chords": "C9#11"
         },
         {
           "chords": "B7"
@@ -97369,11 +97545,11 @@
         },
         {
           "alternateChords": "Moto rit.",
-          "chords": "<> / Em9 f / A7#9#5"
+          "chords": "Em9 f / A7#9#5"
         },
         {
           "alternateChords": "a tempo",
-          "chords": "<> / D  / Am7"
+          "chords": "D  / Am7"
         },
         {
           "chords": "D  / Am7",
@@ -97960,7 +98136,7 @@
           "chords": "Amb6"
         },
         {
-          "chords": "Am,  < / Open  / Vamp>",
+          "chords": "Am,",
           "rightRepeat": "true"
         }
       ],
@@ -98733,7 +98909,8 @@
           "chords": "Bb7b5  / Bm7, / E7,"
         },
         {
-          "chords": "Ab7#11  @"
+          "coda": "@",
+          "chords": "Ab7#11"
         },
         {
           "chords": "%",
@@ -98741,7 +98918,8 @@
         },
         {
           "leftDoubleBarLine": "true",
-          "chords": "@ / Ab7#11  / Gbmaj7"
+          "coda": "@",
+          "chords": "Ab7#11  / Gbmaj7"
         },
         {
           "chords": "F7#9  / A9"
@@ -99800,7 +99978,8 @@
           "chords": "Dm7  / Ebmaj7"
         },
         {
-          "chords": "Am7  @"
+          "coda": "@",
+          "chords": "Am7"
         },
         {
           "chords": "D7#11",
@@ -99810,7 +99989,8 @@
           "chords": ""
         },
         {
-          "chords": "@ / D7#11"
+          "coda": "@",
+          "chords": "D7#11"
         },
         {
           "chords": "f / G69"
@@ -100049,7 +100229,8 @@
           "chords": "Gm7  / C7"
         },
         {
-          "chords": "C#m7  / F#7,@"
+          "coda": "@",
+          "chords": "C#m7  / F#7,"
         },
         {
           "chords": "Am7  / Ab7"
@@ -100064,7 +100245,8 @@
         },
         {
           "leftDoubleBarLine": "true",
-          "chords": "@ / F6"
+          "coda": "@",
+          "chords": "/ F6"
         },
         {
           "chords": "%",
@@ -100327,7 +100509,8 @@
           "chords": "Dm7"
         },
         {
-          "chords": "G7,@"
+          "coda": "@",
+          "chords": "G7,"
         },
         {
           "chords": "Cmaj7"
@@ -100338,7 +100521,8 @@
         },
         {
           "leftDoubleBarLine": "true",
-          "chords": "@ / Cmaj7/ / G"
+          "coda": "@",
+          "chords": "Cmaj7/ / G"
         },
         {
           "chords": "C7b9/ / Gb"
@@ -100672,7 +100856,8 @@
           "chords": "Bb7"
         },
         {
-          "chords": "Dm9  @"
+          "coda": "@",
+          "chords": "Dm9"
         },
         {
           "chords": "G13"
@@ -100751,11 +100936,12 @@
           "chords": "G13"
         },
         {
-          "chords": "< / D. / C. a  / Coda> %",
+          "chords": "%",
           "rightDoubleBarLine": "true"
         },
         {
-          "chords": "@ / G7"
+          "coda": "@",
+          "chords": "/ G7"
         },
         {
           "chords": "C6"
@@ -100998,21 +101184,22 @@
           "chords": "Bbm7,  / Eb7"
         },
         {
-          "chords": "Ab6 < / Fine>",
+          "chords": "Ab6",
           "rightDoubleBarLine": "true"
         },
         {
           "leftDoubleBarLine": "true",
-          "chords": "n"
+          "chords": "N.C."
         },
         {
-          "chords": "n",
+          "chords": "N.C.",
           "rightDoubleBarLine": "true"
         },
         {
           "leftRepeat": "true",
           "rehearsalLetter": "C",
-          "chords": "* / C<$oo  / C section> / Db  / Do7"
+          "sign": "$",
+          "chords": "* / C / Db  / Do7"
         },
         {
           "chords": "Ab/ / Eb  / Ab7"
@@ -101043,7 +101230,7 @@
           "chords": "/ N2 / Bb7  / Eb7"
         },
         {
-          "chords": "< / After oos  / D. / C. al fine> / Ab6",
+          "chords": "Ab6",
           "finalBarLine": "true"
         }
       ],
@@ -101774,7 +101961,7 @@
           "chords": "Dh7  / G7b9"
         },
         {
-          "chords": "Cmaj7 < / D. / C. a 3rd ending>"
+          "chords": "Cmaj7"
         },
         {
           "chords": "C7b9",
@@ -105047,7 +105234,7 @@
           "chords": "Am9,"
         },
         {
-          "chords": "E9us,< / Repeat 3%>",
+          "chords": "E9us,",
           "rightRepeat": "true"
         },
         {
@@ -105107,10 +105294,10 @@
           "chords": "C/ / B,  / Bbm7"
         },
         {
-          "chords": "< / Open> / Am9,"
+          "chords": "Am9,"
         },
         {
-          "chords": "< / D. / C. on cue> / E9us,",
+          "chords": "E9us,",
           "rightRepeat": "true"
         }
       ],
@@ -105154,7 +105341,8 @@
           "chords": "Bbm7"
         },
         {
-          "chords": "Eb7  @"
+          "coda": "@",
+          "chords": "Eb7"
         },
         {
           "chords": "Bbm7"
@@ -105203,14 +105391,15 @@
           "chords": "%"
         },
         {
-          "chords": "Db7  < / D. / C. a  / C / O / D / A>"
+          "chords": "Db7"
         },
         {
           "chords": "C7",
           "rightDoubleBarLine": "true"
         },
         {
-          "chords": "@   / Ah7"
+          "coda": "@",
+          "chords": "/ Ah7"
         },
         {
           "chords": "D7"
@@ -105442,7 +105631,8 @@
           "chords": ""
         },
         {
-          "chords": "F#h7  / Fm7,@ / Bb7,"
+          "coda": "@",
+          "chords": "F#h7  / Fm7, / Bb7,"
         },
         {
           "chords": "Em7, / A7, / D7"
@@ -105454,11 +105644,12 @@
           "chords": "Cmaj7  / Bb^7"
         },
         {
-          "chords": "Cmaj7  / G7 <  / D. / C. a  / Coda>",
+          "chords": "Cmaj7  / G7",
           "rightDoubleBarLine": "true"
         },
         {
-          "chords": "@   / Ebm7  / Ab7"
+          "coda": "@",
+          "chords": "/ Ebm7  / Ab7"
         },
         {
           "chords": "Dm7  / G7"
@@ -106595,7 +106786,8 @@
           "chords": "C7/ / E  / Fm"
         },
         {
-          "chords": "Cm <$oo on  / C-  / Blues>"
+          "sign": "$",
+          "chords": "Cm"
         },
         {
           "chords": "G7",
@@ -107749,7 +107941,8 @@
           "chords": "Fm7  / Bb7"
         },
         {
-          "chords": "Ebm7  / Ab7,@"
+          "coda": "@",
+          "chords": "Ebm7  / Ab7,"
         },
         {
           "chords": "Dbmaj7  / Bbm7"
@@ -107759,7 +107952,8 @@
           "finalBarLine": "true"
         },
         {
-          "chords": "@"
+          "coda": "@",
+          "chords": ""
         },
         {
           "chords": "Dbmaj7  / Gb7"
@@ -108490,7 +108684,8 @@
           "chords": ""
         },
         {
-          "chords": ",@, / Bh  / Bbm6"
+          "coda": "@",
+          "chords": ",, / Bh  / Bbm6"
         },
         {
           "chords": "F6/ / A  / Ab7"
@@ -108579,7 +108774,7 @@
         {
           "rehearsalLetter": "i",
           "time": "4/4",
-          "chords": "<*69  / Head> / A13"
+          "chords": "A13"
         },
         {
           "chords": "Am7  / D9"
@@ -108618,7 +108813,8 @@
         {
           "leftDoubleBarLine": "true",
           "rehearsalLetter": "A",
-          "chords": "A<*69 $oo>l / A13"
+          "sign": "$",
+          "chords": "Al / A13"
         },
         {
           "chords": "Am7  / D9"
@@ -108643,8 +108839,9 @@
         },
         {
           "time": "h/e",
+          "sign": "$",
           "alternateChords": " blues ",
-          "chords": "eme on  / A, $oo on  / B >l / Bm7"
+          "chords": "eme oN.C.  / A, oo on  / B >l / Bm7"
         },
         {
           "chords": "Bm7"
@@ -110517,7 +110714,8 @@
         {
           "leftDoubleBarLine": "true",
           "rehearsalLetter": "B",
-          "chords": "$ / F#m9"
+          "sign": "$",
+          "chords": "F#m9"
         },
         {
           "chords": "B7#5"
@@ -110612,7 +110810,9 @@
           "chords": "Emaj9  / C^7#11"
         },
         {
-          "chords": "Bmaj9  / G^9,@,< / D.$. al  / Coda>"
+          "coda": "@",
+          "sign": "$",
+          "chords": "Bmaj9  / G^9,,"
         },
         {
           "chords": "Emaj9  / C^7#11",
@@ -110620,10 +110820,11 @@
         },
         {
           "leftDoubleBarLine": "true",
-          "chords": "@ / Emaj7#11  / C^9"
+          "coda": "@",
+          "chords": "Emaj7#11  / C^9"
         },
         {
-          "chords": "<   / Loop vamp> / Bmaj9  / G^9"
+          "chords": "Bmaj9  / G^9"
         },
         {
           "chords": "Emaj9  / C^7#11",
@@ -112094,7 +112295,7 @@
           "chords": "C7  / F7"
         },
         {
-          "chords": "Bb6< / Fine>  / A7, / Ab7",
+          "chords": "Bb6  / A7, / Ab7",
           "rightDoubleBarLine": "true"
         }
       ],
@@ -112304,7 +112505,8 @@
           "chords": "Fm7  / Eo7"
         },
         {
-          "chords": "Fm7  / Bb7,@"
+          "coda": "@",
+          "chords": "Fm7  / Bb7,"
         },
         {
           "chords": "Ebmaj7"
@@ -112314,7 +112516,8 @@
           "rightDoubleBarLine": "true"
         },
         {
-          "chords": "@   / Gbmaj7"
+          "coda": "@",
+          "chords": "/ Gbmaj7"
         },
         {
           "chords": "Abm7  / Db7"
@@ -113296,7 +113499,7 @@
           "chords": "Dm7  / Eb9"
         },
         {
-          "chords": ",,< / Fine> / Ab7  / Db7"
+          "chords": ",, / Ab7  / Db7"
         },
         {
           "chords": "Gb7",
@@ -113539,7 +113742,7 @@
           "chords": "%"
         },
         {
-          "chords": "F7,< / D. / C. a 3rd  / End.>"
+          "chords": "F7,"
         },
         {
           "chords": "Bb7us,"
@@ -113937,7 +114140,7 @@
           "chords": "Fm7"
         },
         {
-          "chords": "< / Vamp til cue> / Bb13",
+          "chords": "Bb13",
           "rightRepeat": "true"
         },
         {
@@ -113982,7 +114185,8 @@
           "chords": "Db7"
         },
         {
-          "chords": "Gh7  / C7b9,@"
+          "coda": "@",
+          "chords": "Gh7  / C7b9,"
         },
         {
           "chords": "Fm"
@@ -114039,14 +114243,16 @@
           "chords": "C9us"
         },
         {
-          "chords": "< / D.$. a  / Coda> / Gb7#11",
+          "sign": "$",
+          "chords": "Gb7#11",
           "finalBarLine": "true"
         },
         {
-          "chords": "@"
+          "coda": "@",
+          "chords": ""
         },
         {
-          "chords": "< / Open> / Fm7"
+          "chords": "Fm7"
         },
         {
           "chords": "Bb13"
@@ -114055,7 +114261,7 @@
           "chords": "Fm7"
         },
         {
-          "chords": "< / D. / C. on  / Cue> / Bb13",
+          "chords": "Bb13",
           "rightRepeat": "true"
         }
       ],
@@ -115538,7 +115744,7 @@
         },
         {
           "rehearsalLetter": "i",
-          "chords": "<  / Intro payed half time> / Em7"
+          "chords": "Em7"
         },
         {
           "chords": "%"
@@ -115553,7 +115759,7 @@
         {
           "leftDoubleBarLine": "true",
           "rehearsalLetter": "A",
-          "chords": "< / Med. wing> / Dmaj7"
+          "chords": "Dmaj7"
         },
         {
           "chords": "%"
@@ -116625,7 +116831,7 @@
           "chords": "Bb7"
         },
         {
-          "chords": "< / At chord for head only> / Dm"
+          "chords": "Dm"
         },
         {
           "chords": "%",
@@ -117158,14 +117364,16 @@
           "chords": "Fmaj, / F/ / E, / Dm, / Dbo,"
         },
         {
-          "chords": "Gh7/ / C  @",
+          "coda": "@",
+          "chords": "Gh7/ / C",
           "finalBarLine": "true"
         },
         {
           "chords": ""
         },
         {
-          "chords": "@ / Bbm9"
+          "coda": "@",
+          "chords": "Bbm9"
         },
         {
           "chords": "Eb9us"
@@ -117590,7 +117798,8 @@
           "chords": "Dbmaj7"
         },
         {
-          "chords": "Bm7  / E7,@"
+          "coda": "@",
+          "chords": "Bm7  / E7,"
         },
         {
           "chords": "Bbm7  / Eb7"
@@ -117609,7 +117818,8 @@
           "chords": ""
         },
         {
-          "chords": "@ / Bbm7  / Eb7"
+          "coda": "@",
+          "chords": "Bbm7  / Eb7"
         },
         {
           "chords": "A7  / D7"
@@ -118413,7 +118623,8 @@
         },
         {
           "leftDoubleBarLine": "true",
-          "chords": "@<ra....> / Cmaj7"
+          "coda": "@",
+          "chords": "/ Cmaj7"
         },
         {
           "chords": "B7"
@@ -118523,7 +118734,7 @@
           "chords": "Ebm7"
         },
         {
-          "chords": "Cm7 < / D. / C. a 3rd ending>"
+          "chords": "Cm7"
         },
         {
           "chords": "F7",
@@ -118812,7 +119023,8 @@
           "chords": "Dm7  / E-7"
         },
         {
-          "chords": "Fmaj7  / G7,@"
+          "coda": "@",
+          "chords": "Fmaj7  / G7,"
         },
         {
           "chords": "Cmaj7"
@@ -118822,7 +119034,8 @@
           "finalBarLine": "true"
         },
         {
-          "chords": "@"
+          "coda": "@",
+          "chords": ""
         },
         {
           "chords": "Dm7  / E-7"
@@ -119367,7 +119580,7 @@
         },
         {
           "leftRepeat": "true",
-          "chords": "< / Vamp> / G7  / C7"
+          "chords": "/ G7  / C7"
         },
         {
           "chords": "G7  / C7",
@@ -120458,7 +120671,8 @@
           "chords": "F6  / Dm7"
         },
         {
-          "chords": "N1 / Gm7  / C7,@",
+          "coda": "@",
+          "chords": "N1 / Gm7  / C7,",
           "rightRepeat": "true"
         },
         {
@@ -120510,14 +120724,15 @@
           "chords": "Dbmaj7"
         },
         {
-          "chords": "Gm7  < / D. / C. a  / C / O / D / A>"
+          "chords": "Gm7"
         },
         {
           "chords": "C7",
           "rightDoubleBarLine": "true"
         },
         {
-          "chords": "@  / Gm7"
+          "coda": "@",
+          "chords": "/ Gm7"
         },
         {
           "chords": "C7"
@@ -121255,7 +121470,8 @@
           "chords": "Fm7"
         },
         {
-          "chords": "Bb7  @"
+          "coda": "@",
+          "chords": "Bb7"
         },
         {
           "chords": "Bmaj7"
@@ -121268,7 +121484,8 @@
           "chords": ""
         },
         {
-          "chords": "@ / Emaj7"
+          "coda": "@",
+          "chords": "Emaj7"
         },
         {
           "chords": "Ebmaj7",
@@ -124119,7 +124336,7 @@
           "chords": "Ebmaj7  / C7"
         },
         {
-          "chords": "Fm7 < / Fine> / Bb7",
+          "chords": "Fm7  / Bb7",
           "rightRepeat": "true"
         },
         {
@@ -124180,7 +124397,7 @@
           "chords": "%"
         },
         {
-          "chords": "F#m7 < / D. / C. a 1t ending> / B7"
+          "chords": "F#m7  / B7"
         },
         {
           "chords": "Fm7  / Bb7",
@@ -124448,14 +124665,16 @@
           "chords": "C#m7"
         },
         {
-          "chords": "C7#11  @",
+          "coda": "@",
+          "chords": "C7#11",
           "finalBarLine": "true"
         },
         {
           "chords": ""
         },
         {
-          "chords": "@ / Bmaj7"
+          "coda": "@",
+          "chords": "Bmaj7"
         },
         {
           "chords": "%"
@@ -124464,7 +124683,7 @@
           "chords": "C#m7/ / B"
         },
         {
-          "chords": "% <4x>",
+          "chords": "%",
           "rightRepeat": "true"
         }
       ],
@@ -124952,7 +125171,8 @@
           "chords": "Bbmaj7"
         },
         {
-          "chords": "Bbm6  @"
+          "coda": "@",
+          "chords": "Bbm6"
         },
         {
           "chords": "Am7  / G-7"
@@ -124965,7 +125185,8 @@
           "chords": ""
         },
         {
-          "chords": "@ / Eb13#11"
+          "coda": "@",
+          "chords": "Eb13#11"
         },
         {
           "chords": "D7b9"
@@ -125078,7 +125299,7 @@
           "chords": "Ah7  / D7b9"
         },
         {
-          "chords": "Gm7 < / D. / C. a 3rd  / Ending> / C7"
+          "chords": "Gm7  / C7"
         },
         {
           "chords": "Fm7  / Bb7",
@@ -125726,11 +125947,13 @@
           "chords": "G6"
         },
         {
-          "chords": "Am7  / D7,@",
+          "coda": "@",
+          "chords": "Am7  / D7,",
           "finalBarLine": "true"
         },
         {
-          "chords": ",@,"
+          "coda": "@",
+          "chords": ",,"
         },
         {
           "chords": "G6"
@@ -126117,7 +126340,7 @@
           "chords": "Em7"
         },
         {
-          "chords": "%< / Fine>",
+          "chords": "%",
           "rightRepeat": "true"
         },
         {
@@ -126165,7 +126388,7 @@
           "chords": "%"
         },
         {
-          "chords": "Am7  < / D. / C. a  / Fine>"
+          "chords": "Am7"
         },
         {
           "chords": "D7",
