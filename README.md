@@ -40,10 +40,7 @@ We tested our application in Chrome and FireFox on Mac OS X. To use the applicat
 
 The following issues are known problems with our implementation:
 
-1. Inserting spaces into our Javascript chord strings did not display in the browser. In order to space the bars we added '.' to the end of each chord. The character spacing can sometimes be al little off because of this.
+1. Inserting spaces into our Javascript chord strings did not display in the browser. In order to space the bars we added '.' to the end of each chord. The character spacing can sometimes be a little off because of this.
 
-2. The following requirements are missing right now:  
-	R 3.15
+2. The following requirements are missing:  
 	R 3.8
-	R 3.9
-	R 3.12
