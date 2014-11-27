@@ -98,6 +98,8 @@ function parse(fileDataString) {
             currentSong.style = parseDataString;
         }
         else if (mode === MODES.KEY) {
+            parseDataString = parseDataString.replace("^", "maj");
+            parseDataString = parseDataString.replace("-", "m");
             currentSong.key = parseDataString;
         }
         else if (mode === MODES.SONGDATA) {

@@ -123,7 +123,7 @@
       "title": "500 Miles High",
       "composer": "Corea Chick",
       "style": "Bossa Nova",
-      "key": "E-",
+      "key": "Em",
       "bars": [
         {
           "chords": ""
@@ -210,7 +210,7 @@
       "title": "502 Blues",
       "composer": "Rowles Jimmy",
       "style": "Waltz",
-      "key": "A-",
+      "key": "Am",
       "bars": [
         {
           "leftRepeat": "true",
@@ -479,7 +479,7 @@
       "title": "A Felicidade",
       "composer": "Jobim Antonio-Carlos",
       "style": "Bossa Nova",
-      "key": "A-",
+      "key": "Am",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -939,7 +939,7 @@
       "title": "Afro Blue",
       "composer": "Santamaria Mongo",
       "style": "Waltz",
-      "key": "F-",
+      "key": "Fm",
       "bars": [
         {
           "chords": ""
@@ -1582,7 +1582,7 @@
       "title": "Agua De Beber",
       "composer": "Jobim Antonio-Carlos",
       "style": "Bossa Nova",
-      "key": "D-",
+      "key": "Dm",
       "bars": [
         {
           "rehearsalLetter": "i",
@@ -1926,7 +1926,7 @@
       "title": "Airegin",
       "composer": "Rollins Sonny",
       "style": "Up Tempo Swing",
-      "key": "F-",
+      "key": "Fm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -2185,7 +2185,7 @@
       "title": "Aisha",
       "composer": "Tyner McCoy",
       "style": "Ballad",
-      "key": "A-",
+      "key": "Am",
       "bars": [
         {
           "chords": ""
@@ -2534,7 +2534,7 @@
       "title": "Alfie's Theme",
       "composer": "Rollins Sonny",
       "style": "Medium Swing",
-      "key": "Bb-",
+      "key": "Bbm",
       "bars": [
         {
           "time": "4/4",
@@ -3681,7 +3681,7 @@
       "title": "All Or Nothing At All",
       "composer": "Altman Arthur",
       "style": "Medium Up Swing",
-      "key": "A-",
+      "key": "Am",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -4610,7 +4610,7 @@
       "title": "Alone Together",
       "composer": "Schwartz Arthur",
       "style": "Medium Swing",
-      "key": "D-",
+      "key": "Dm",
       "bars": [
         {
           "leftRepeat": "true",
@@ -5820,7 +5820,7 @@
       "title": "Angel Eyes",
       "composer": "Dennis Matt",
       "style": "Ballad",
-      "key": "C-",
+      "key": "Cm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -6475,7 +6475,7 @@
       "title": "Armando's Rhumba",
       "composer": "Corea Chick",
       "style": "Latin",
-      "key": "C-",
+      "key": "Cm",
       "bars": [
         {
           "time": "4/4",
@@ -7272,7 +7272,7 @@
       "title": "Autumn Leaves",
       "composer": "Kosma Joseph",
       "style": "Medium Swing",
-      "key": "G-",
+      "key": "Gm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -7532,7 +7532,7 @@
       "title": "Backstage Sally",
       "composer": "Shorter Wayne",
       "style": "Medium Swing",
-      "key": "F-",
+      "key": "Fm",
       "bars": [
         {
           "chords": ""
@@ -7646,7 +7646,7 @@
       "title": "Balance, The",
       "composer": "Holland Dave",
       "style": "Medium Swing",
-      "key": "G-",
+      "key": "Gm",
       "bars": [
         {
           "chords": ""
@@ -7898,7 +7898,7 @@
       "title": "Baltimore Oriole",
       "composer": "Carmichael Hoagy",
       "style": "Ballad",
-      "key": "G-",
+      "key": "Gm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -8666,7 +8666,7 @@
       "title": "Be-Bop",
       "composer": "Gillespie Dizzy",
       "style": "Up Tempo Swing",
-      "key": "F-",
+      "key": "Fm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -8917,7 +8917,7 @@
       "title": "Beautiful Love",
       "composer": "Young Victor",
       "style": "Medium Swing",
-      "key": "D-",
+      "key": "Dm",
       "bars": [
         {
           "chords": ""
@@ -9621,7 +9621,7 @@
       "title": "Bernies's Tune",
       "composer": "Miller Bernie",
       "style": "Medium Up Swing",
-      "key": "D-",
+      "key": "Dm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -9723,7 +9723,7 @@
       "title": "Besame Mucho",
       "composer": "Velazques Consuelo",
       "style": "Bossa Nova",
-      "key": "D-",
+      "key": "Dm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -11499,7 +11499,7 @@
       "title": "Birk's Works",
       "composer": "Gillespie Dizzy",
       "style": "Up Tempo Swing",
-      "key": "F-",
+      "key": "Fm",
       "bars": [
         {
           "chords": ""
@@ -11876,7 +11876,7 @@
       "title": "Black Narcissus",
       "composer": "Henderson Joe",
       "style": "Waltz",
-      "key": "G#-",
+      "key": "G#m",
       "bars": [
         {
           "chords": ""
@@ -11967,7 +11967,7 @@
       "title": "Black Nile",
       "composer": "Shorter Wayne",
       "style": "Up Tempo Swing",
-      "key": "D-",
+      "key": "Dm",
       "bars": [
         {
           "rehearsalLetter": "i",
@@ -12611,7 +12611,7 @@
       "title": "Blue Bossa",
       "composer": "Dorham Kenny",
       "style": "Bossa Nova",
-      "key": "C-",
+      "key": "Cm",
       "bars": [
         {
           "chords": ""
@@ -12853,7 +12853,7 @@
       "title": "Blue In Green",
       "composer": "Miles Davis, Bill Evans",
       "style": "Ballad",
-      "key": "D-",
+      "key": "Dm",
       "bars": [
         {
           "chords": ""
@@ -13785,7 +13785,7 @@
       "title": "Blues For Wood",
       "composer": "Shaw Woody",
       "style": "Up Tempo Swing",
-      "key": "F-",
+      "key": "Fm",
       "bars": [
         {
           "chords": ""
@@ -14278,7 +14278,7 @@
       "title": "Bohemia After Dark",
       "composer": "Pettiford Oscar",
       "style": "Up Tempo Swing",
-      "key": "G-",
+      "key": "Gm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -15600,7 +15600,7 @@
       "title": "Brazilian Like",
       "composer": "Petrucciani Michel",
       "style": "Bossa Nova",
-      "key": "Bb-",
+      "key": "Bbm",
       "bars": [
         {
           "chords": ""
@@ -15712,7 +15712,7 @@
       "title": "Brazilian Suite",
       "composer": "Petrucciani Michel",
       "style": "Bossa Nova",
-      "key": "Bb-",
+      "key": "Bbm",
       "bars": [
         {
           "chords": ""
@@ -17258,7 +17258,7 @@
       "title": "Butterfly",
       "composer": "Hancock Herbie",
       "style": "Funk",
-      "key": "F-",
+      "key": "Fm",
       "bars": [
         {
           "leftRepeat": "true",
@@ -18811,7 +18811,7 @@
       "title": "Cantaloupe Island",
       "composer": "Hancock Herbie",
       "style": "Rock Pop",
-      "key": "F-",
+      "key": "Fm",
       "bars": [
         {
           "chords": ""
@@ -19064,7 +19064,7 @@
       "title": "Caravan",
       "composer": "Ellington Duke",
       "style": "Latin",
-      "key": "F-",
+      "key": "Fm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -20022,7 +20022,7 @@
       "title": "Cheese Cake",
       "composer": "Gordon Dexter",
       "style": "Medium Up Swing",
-      "key": "C-",
+      "key": "Cm",
       "bars": [
         {
           "chords": ""
@@ -20222,7 +20222,7 @@
       "title": "Chega De Saudade (No More Blues)",
       "composer": "Jobim Antonio-Carlos",
       "style": "Bossa Nova",
-      "key": "D-",
+      "key": "Dm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -21035,7 +21035,7 @@
       "title": "Chucho 1",
       "composer": "D'Rivera Paquito",
       "style": "Latin",
-      "key": "D-",
+      "key": "Dm",
       "bars": [
         {
           "chords": ""
@@ -21227,7 +21227,7 @@
       "title": "Close Your Eyes",
       "composer": "Petkere Bernice",
       "style": "Medium Swing",
-      "key": "Eb-",
+      "key": "Ebm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -22241,7 +22241,7 @@
       "title": "Contemplation",
       "composer": "Tyner McCoy",
       "style": "Waltz",
-      "key": "C-",
+      "key": "Cm",
       "bars": [
         {
           "chords": ""
@@ -22588,7 +22588,7 @@
       "title": "Coral",
       "composer": "Jarrett Keith",
       "style": "Ballad",
-      "key": "C-",
+      "key": "Cm",
       "bars": [
         {
           "chords": ""
@@ -23935,7 +23935,7 @@
       "title": "Criss Cross",
       "composer": "Monk Thelonious",
       "style": "Medium Swing",
-      "key": "G-",
+      "key": "Gm",
       "bars": [
         {
           "leftRepeat": "true",
@@ -24243,7 +24243,7 @@
       "title": "Crystal Silence 1",
       "composer": "Corea Chick",
       "style": "Ballad",
-      "key": "A-",
+      "key": "Am",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -25124,7 +25124,7 @@
       "title": "Dat Dere",
       "composer": "Timmons Bobby",
       "style": "Slow Swing",
-      "key": "C-",
+      "key": "Cm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -26219,7 +26219,7 @@
       "title": "Dear Old Stockholm",
       "composer": "Traditional",
       "style": "Medium Swing",
-      "key": "D-",
+      "key": "Dm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -26921,7 +26921,7 @@
       "title": "Deluge",
       "composer": "Shorter Wayne",
       "style": "Medium Swing",
-      "key": "Eb-",
+      "key": "Ebm",
       "bars": [
         {
           "chords": ""
@@ -27550,7 +27550,7 @@
       "title": "Devil May Care",
       "composer": "Kirk T.P.",
       "style": "Medium Up Swing",
-      "key": "G-",
+      "key": "Gm",
       "bars": [
         {
           "time": "4/4",
@@ -28379,7 +28379,7 @@
       "title": "Django",
       "composer": "Lewis John",
       "style": "Medium Swing",
-      "key": "F-",
+      "key": "Fm",
       "bars": [
         {
           "rehearsalLetter": "v",
@@ -29325,7 +29325,7 @@
       "title": "Don't Explain",
       "composer": "Holiday Billie",
       "style": "Ballad",
-      "key": "D-",
+      "key": "Dm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -31734,7 +31734,7 @@
       "title": "Eiderdown",
       "composer": "Swallow Steve",
       "style": "Medium Swing",
-      "key": "G-",
+      "key": "Gm",
       "bars": [
         {
           "time": "4/4",
@@ -32700,7 +32700,7 @@
       "title": "Equinox",
       "composer": "Coltrane John",
       "style": "Slow Swing",
-      "key": "C#-",
+      "key": "C#m",
       "bars": [
         {
           "chords": ""
@@ -32852,7 +32852,7 @@
       "title": "Estate",
       "composer": "Martino Bruno",
       "style": "Bossa Nova",
-      "key": "B-",
+      "key": "Bm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -33169,7 +33169,7 @@
       "title": "Everybody's Song But My Own",
       "composer": "Wheeler Kenny",
       "style": "Waltz",
-      "key": "C-",
+      "key": "Cm",
       "bars": [
         {
           "chords": ""
@@ -33994,7 +33994,7 @@
       "title": "Fall",
       "composer": "Shorter Wayne",
       "style": "Ballad",
-      "key": "E-",
+      "key": "Em",
       "bars": [
         {
           "chords": ""
@@ -34857,7 +34857,7 @@
       "title": "Favela",
       "composer": "Jobim Antonio-Carlos",
       "style": "Bossa Nova",
-      "key": "G-",
+      "key": "Gm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -35260,7 +35260,7 @@
       "title": "Fever",
       "composer": "Davenport-Cooley",
       "style": "Medium Swing",
-      "key": "A-",
+      "key": "Am",
       "bars": [
         {
           "time": "4/4",
@@ -36621,7 +36621,7 @@
       "title": "Footprints",
       "composer": "Shorter Wayne",
       "style": "Waltz",
-      "key": "C-",
+      "key": "Cm",
       "bars": [
         {
           "chords": ""
@@ -37872,7 +37872,7 @@
       "title": "Four On Six",
       "composer": "Montgomery Wes",
       "style": "Up Tempo Swing",
-      "key": "G-",
+      "key": "Gm",
       "bars": [
         {
           "chords": ""
@@ -38407,7 +38407,7 @@
       "title": "From This Moment On",
       "composer": "Porter Cole",
       "style": "Up Tempo Swing",
-      "key": "F-",
+      "key": "Fm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -38548,7 +38548,7 @@
       "title": "Full House",
       "composer": "Montgomery Wes",
       "style": "Waltz",
-      "key": "F-",
+      "key": "Fm",
       "bars": [
         {
           "chords": ""
@@ -38798,7 +38798,7 @@
       "title": "Funkallero",
       "composer": "Evans Bill",
       "style": "Medium Up Swing",
-      "key": "C-",
+      "key": "Cm",
       "bars": [
         {
           "chords": ""
@@ -38861,7 +38861,7 @@
       "title": "Gary's Notebook",
       "composer": "Morgan Lee",
       "style": "Waltz",
-      "key": "C-",
+      "key": "Cm",
       "bars": [
         {
           "chords": ""
@@ -39035,7 +39035,7 @@
       "title": "Gentle Rain, The",
       "composer": "Bonfa Luiz",
       "style": "Bossa Nova",
-      "key": "A-",
+      "key": "Am",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -40529,7 +40529,7 @@
       "title": "Golden Earring",
       "composer": "Livingston Jay",
       "style": "Medium Swing",
-      "key": "C-",
+      "key": "Cm",
       "bars": [
         {
           "time": "4/4",
@@ -40952,7 +40952,7 @@
       "title": "Good Morning Heartache",
       "composer": "Drake-Fisher-Higginbotham",
       "style": "Ballad",
-      "key": "C-",
+      "key": "Cm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -41239,7 +41239,7 @@
       "title": "Got A Match?",
       "composer": "Corea Chick",
       "style": "Up Tempo Swing",
-      "key": "D-",
+      "key": "Dm",
       "bars": [
         {
           "chords": ""
@@ -41308,7 +41308,7 @@
       "title": "Grand Central",
       "composer": "Coltrane John",
       "style": "Up Tempo Swing",
-      "key": "Bb-",
+      "key": "Bbm",
       "bars": [
         {
           "chords": ""
@@ -41516,7 +41516,7 @@
       "title": "Green Chimneys",
       "composer": "Monk Thelonious",
       "style": "Medium Swing",
-      "key": "G#-",
+      "key": "G#m",
       "bars": [
         {
           "chords": ""
@@ -43219,7 +43219,7 @@
       "title": "Here's To Life",
       "composer": "Butler Artie",
       "style": "Ballad",
-      "key": "Eb-",
+      "key": "Ebm",
       "bars": [
         {
           "chords": ""
@@ -44054,7 +44054,7 @@
       "title": "House Of Jade",
       "composer": "Shorter Wayne",
       "style": "Slow Swing",
-      "key": "C-",
+      "key": "Cm",
       "bars": [
         {
           "chords": ""
@@ -44619,7 +44619,7 @@
       "title": "How Insensitive",
       "composer": "Jobim Antonio-Carlos",
       "style": "Bossa Nova",
-      "key": "D-",
+      "key": "Dm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -48678,7 +48678,7 @@
       "title": "I Love Paris",
       "composer": "Porter Cole",
       "style": "Medium Swing",
-      "key": "C-",
+      "key": "Cm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -52197,7 +52197,7 @@
       "title": "I'm A Fool To Want You",
       "composer": "Herron-Sinatra-Wolf",
       "style": "Ballad",
-      "key": "E-",
+      "key": "Em",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -54741,7 +54741,7 @@
       "title": "Idle Moments",
       "composer": "Green Grant",
       "style": "Slow Swing",
-      "key": "C-",
+      "key": "Cm",
       "bars": [
         {
           "rehearsalLetter": "i",
@@ -56252,7 +56252,7 @@
       "title": "Impressions",
       "composer": "Coltrane John",
       "style": "Up Tempo Swing",
-      "key": "D-",
+      "key": "Dm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -57491,7 +57491,7 @@
       "title": "In a Sentimental Mood",
       "composer": "Ellington Duke",
       "style": "Ballad",
-      "key": "D-",
+      "key": "Dm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -58008,7 +58008,7 @@
       "title": "Interplay",
       "composer": "Evans Bill",
       "style": "Medium Swing",
-      "key": "F-",
+      "key": "Fm",
       "bars": [
         {
           "chords": ""
@@ -58059,7 +58059,7 @@
       "title": "Invitation 1",
       "composer": "Kaper Bronislau",
       "style": "Even 8ths",
-      "key": "C-",
+      "key": "Cm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -58195,7 +58195,7 @@
       "title": "Iris",
       "composer": "Shorter Wayne",
       "style": "Waltz",
-      "key": "F-",
+      "key": "Fm",
       "bars": [
         {
           "chords": ""
@@ -59029,7 +59029,7 @@
       "title": "Israel",
       "composer": "Carisi John",
       "style": "Medium Swing",
-      "key": "D-",
+      "key": "Dm",
       "bars": [
         {
           "chords": ""
@@ -59086,7 +59086,7 @@
       "title": "It Ain't Necessarily So",
       "composer": "Gershwin George",
       "style": "Medium Swing",
-      "key": "G-",
+      "key": "Gm",
       "bars": [
         {
           "chords": ""
@@ -60667,7 +60667,7 @@
       "title": "It's All Right With Me",
       "composer": "Porter Cole",
       "style": "Up Tempo Swing",
-      "key": "C-",
+      "key": "Cm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -61726,7 +61726,7 @@
       "title": "Jaco 1",
       "composer": "Metheny Pat",
       "style": "Even 8ths",
-      "key": "C-",
+      "key": "Cm",
       "bars": [
         {
           "rehearsalLetter": "i",
@@ -62642,7 +62642,7 @@
       "title": "Jody Grind, The 1",
       "composer": "Silver Horace",
       "style": "Even 8ths",
-      "key": "Bb-",
+      "key": "Bbm",
       "bars": [
         {
           "chords": ""
@@ -62767,7 +62767,7 @@
       "title": "Jordu",
       "composer": "Jordan Duke",
       "style": "Up Tempo Swing",
-      "key": "C-",
+      "key": "Cm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -62861,7 +62861,7 @@
       "title": "Joshua",
       "composer": "Feldman Victor",
       "style": "Up Tempo Swing",
-      "key": "D-",
+      "key": "Dm",
       "bars": [
         {
           "chords": ""
@@ -64236,7 +64236,7 @@
       "title": "Kids Are Pretty People",
       "composer": "Jones Thad",
       "style": "Slow Swing",
-      "key": "D-",
+      "key": "Dm",
       "bars": [
         {
           "chords": ""
@@ -65081,7 +65081,7 @@
       "title": "Lament",
       "composer": "Johnson J.J.",
       "style": "Ballad",
-      "key": "F-",
+      "key": "Fm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -65645,7 +65645,7 @@
       "title": "Lazy Afternoon",
       "composer": "Latouche-Moross",
       "style": "Ballad",
-      "key": "A-",
+      "key": "Am",
       "bars": [
         {
           "chords": ""
@@ -66250,7 +66250,7 @@
       "title": "Lennie's Pennies",
       "composer": "Tristano Lennie",
       "style": "Up Tempo Swing",
-      "key": "C-",
+      "key": "Cm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -68493,7 +68493,7 @@
       "title": "Little B's Poem",
       "composer": "Hutcherson Bobby",
       "style": "Waltz",
-      "key": "F-",
+      "key": "Fm",
       "bars": [
         {
           "chords": ""
@@ -68914,7 +68914,7 @@
       "title": "Little Niles",
       "composer": "Weston Randy",
       "style": "Waltz",
-      "key": "G-",
+      "key": "Gm",
       "bars": [
         {
           "chords": ""
@@ -69280,7 +69280,7 @@
       "title": "Little Sunflower 1",
       "composer": "Hubbard Freddie",
       "style": "Even 8ths",
-      "key": "D-",
+      "key": "Dm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -69487,7 +69487,7 @@
       "title": "Little Waltz",
       "composer": "Carter Ron",
       "style": "Waltz",
-      "key": "F-",
+      "key": "Fm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -69777,7 +69777,7 @@
       "title": "Lone Jack (Page",
       "composer": "Metheny Pat",
       "style": "Samba",
-      "key": "Bb-",
+      "key": "Bbm",
       "bars": [
         {
           "chords": ""
@@ -69932,7 +69932,7 @@
       "title": "Lone Jack (Page 2 - Solos) 1",
       "composer": "Metheny Pat",
       "style": "Samba",
-      "key": "Bb-",
+      "key": "Bbm",
       "bars": [
         {
           "chords": ""
@@ -70365,7 +70365,7 @@
       "title": "Lonnie's Lament",
       "composer": "Coltrane John",
       "style": "Slow Swing",
-      "key": "C-",
+      "key": "Cm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -71376,7 +71376,7 @@
       "title": "Love For Sale",
       "composer": "Porter Cole",
       "style": "Medium Up Swing",
-      "key": "Bb-",
+      "key": "Bbm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -72726,7 +72726,7 @@
       "title": "Lullaby Of The Leaves",
       "composer": "Petkere Bernice",
       "style": "Medium Swing",
-      "key": "C-",
+      "key": "Cm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -73152,7 +73152,7 @@
       "title": "Mahjong",
       "composer": "Shorter Wayne",
       "style": "Latin",
-      "key": "F-",
+      "key": "Fm",
       "bars": [
         {
           "leftRepeat": "true",
@@ -73947,7 +73947,7 @@
       "title": "Manha De Carnaval (Black Orpheus)",
       "composer": "Bonfa Luiz",
       "style": "Bossa Nova",
-      "key": "A-",
+      "key": "Am",
       "bars": [
         {
           "chords": ""
@@ -74425,7 +74425,7 @@
       "title": "Mas Que Nada",
       "composer": "Ben Jorge",
       "style": "Latin",
-      "key": "F-",
+      "key": "Fm",
       "bars": [
         {
           "leftDoubleBarLine": "true",
@@ -74759,7 +74759,7 @@
       "title": "Maze, The",
       "composer": "Hancock Herbie",
       "style": "Medium Swing",
-      "key": "E-",
+      "key": "Em",
       "bars": [
         {
           "chords": ""
@@ -74850,7 +74850,7 @@
       "title": "Mc Jolt",
       "composer": "Beirach Richie",
       "style": "Medium Up Swing",
-      "key": "Eb-",
+      "key": "Ebm",
       "bars": [
         {
           "chords": ""
@@ -75049,7 +75049,7 @@
       "title": "Meaning Of The Blues, The 1",
       "composer": "Worth-Troup",
       "style": "Even 8ths",
-      "key": "D-",
+      "key": "Dm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -75278,7 +75278,7 @@
       "title": "Memories Of Tomorrow 1",
       "composer": "Jarrett Keith",
       "style": "Even 8ths",
-      "key": "A-",
+      "key": "Am",
       "bars": [
         {
           "chords": ""
@@ -76125,7 +76125,7 @@
       "title": "Milestones (New)",
       "composer": "Davis Miles",
       "style": "Up Tempo Swing",
-      "key": "G-",
+      "key": "Gm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -76512,7 +76512,7 @@
       "title": "Minor Mishap",
       "composer": "Flanagan Tommy",
       "style": "Medium Up Swing",
-      "key": "Bb-",
+      "key": "Bbm",
       "bars": [
         {
           "chords": ""
@@ -76636,7 +76636,7 @@
       "title": "Minor Mood",
       "composer": "Brown Clifford",
       "style": "Medium Swing",
-      "key": "F-",
+      "key": "Fm",
       "bars": [
         {
           "chords": ""
@@ -76796,7 +76796,7 @@
       "title": "Minority",
       "composer": "Gryce Gigi",
       "style": "Up Tempo Swing",
-      "key": "F-",
+      "key": "Fm",
       "bars": [
         {
           "leftDoubleBarLine": "true",
@@ -77226,7 +77226,7 @@
       "title": "Moanin'",
       "composer": "Timmons Bobby",
       "style": "Medium Swing",
-      "key": "F-",
+      "key": "Fm",
       "bars": [
         {
           "chords": ""
@@ -78068,7 +78068,7 @@
       "title": "Moon And Sand",
       "composer": "Wilder-Palitz",
       "style": "Bossa Nova",
-      "key": "D-",
+      "key": "Dm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -78324,7 +78324,7 @@
       "title": "Moonchild",
       "composer": "Jarrett Keith",
       "style": "Ballad",
-      "key": "E-",
+      "key": "Em",
       "bars": [
         {
           "chords": ""
@@ -78363,7 +78363,7 @@
       "title": "Moondance",
       "composer": "Morrison Van",
       "style": "Medium Swing",
-      "key": "A-",
+      "key": "Am",
       "bars": [
         {
           "leftRepeat": "true",
@@ -79530,7 +79530,7 @@
       "title": "Morning",
       "composer": "Fischer Clare",
       "style": "Bossa Nova",
-      "key": "A-",
+      "key": "Am",
       "bars": [
         {
           "leftRepeat": "true",
@@ -79945,7 +79945,7 @@
       "title": "Mr. P.C.",
       "composer": "Coltrane John",
       "style": "Up Tempo Swing",
-      "key": "C-",
+      "key": "Cm",
       "bars": [
         {
           "chords": ""
@@ -79996,7 +79996,7 @@
       "title": "My Favorite Things",
       "composer": "Rodgers Richard",
       "style": "Waltz",
-      "key": "E-",
+      "key": "Em",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -80457,7 +80457,7 @@
       "title": "My Heart Belongs To Daddy",
       "composer": "Porter Cole",
       "style": "Medium Up Swing",
-      "key": "C-",
+      "key": "Cm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -81033,7 +81033,7 @@
       "title": "My Man's Gone Now",
       "composer": "Gershwin George",
       "style": "Waltz",
-      "key": "E-",
+      "key": "Em",
       "bars": [
         {
           "chords": ""
@@ -82363,7 +82363,7 @@
       "title": "Nardis",
       "composer": "Davis Miles",
       "style": "Medium Swing",
-      "key": "E-",
+      "key": "Em",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -82457,7 +82457,7 @@
       "title": "Nature Boy",
       "composer": "Ahbez Eden",
       "style": "Ballad",
-      "key": "D-",
+      "key": "Dm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -83347,7 +83347,7 @@
       "title": "Nica's Dream",
       "composer": "Silver Horace",
       "style": "Latin",
-      "key": "Bb-",
+      "key": "Bbm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -84014,7 +84014,7 @@
       "title": "Night In Tunisia, A",
       "composer": "Gillespie Dizzy",
       "style": "Latin",
-      "key": "D-",
+      "key": "Dm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -84475,7 +84475,7 @@
       "title": "No Moon At All",
       "composer": "Mann David",
       "style": "Medium Swing",
-      "key": "D-",
+      "key": "Dm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -84569,7 +84569,7 @@
       "title": "No Splice",
       "composer": "Konitz Lee",
       "style": "Medium Up Swing",
-      "key": "G-",
+      "key": "Gm",
       "bars": [
         {
           "chords": ""
@@ -84872,7 +84872,7 @@
       "title": "Nothing Personal",
       "composer": "Grolnick Don",
       "style": "Up Tempo Swing",
-      "key": "G-",
+      "key": "Gm",
       "bars": [
         {
           "chords": ""
@@ -85240,7 +85240,7 @@
       "title": "Nutville",
       "composer": "Silver Horace",
       "style": "Medium Up Swing",
-      "key": "C-",
+      "key": "Cm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -85353,7 +85353,7 @@
       "title": "O Grande Amor",
       "composer": "Jobim Antonio-Carlos",
       "style": "Bossa Nova",
-      "key": "A-",
+      "key": "Am",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -85568,7 +85568,7 @@
       "title": "Off Minor",
       "composer": "Monk Thelonious",
       "style": "Medium Swing",
-      "key": "G-",
+      "key": "Gm",
       "bars": [
         {
           "chords": ""
@@ -86203,7 +86203,7 @@
       "title": "Old Country, The",
       "composer": "Adderley-Lewis",
       "style": "Medium Swing",
-      "key": "D-",
+      "key": "Dm",
       "bars": [
         {
           "chords": ""
@@ -87429,7 +87429,7 @@
       "title": "Once I Loved",
       "composer": "Jobim Antonio-Carlos",
       "style": "Bossa Nova",
-      "key": "D-",
+      "key": "Dm",
       "bars": [
         {
           "chords": ""
@@ -87656,7 +87656,7 @@
       "title": "One By One",
       "composer": "Shorter Wayne",
       "style": "Medium Up Swing",
-      "key": "G-",
+      "key": "Gm",
       "bars": [
         {
           "chords": ""
@@ -90303,7 +90303,7 @@
       "title": "Peacocks, The",
       "composer": "Rowles Jimmy",
       "style": "Ballad",
-      "key": "Bb-",
+      "key": "Bbm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -90496,7 +90496,7 @@
       "title": "Peel Me A Grape",
       "composer": "Frishberg Dave",
       "style": "Slow Swing",
-      "key": "D-",
+      "key": "Dm",
       "bars": [
         {
           "time": "4/4",
@@ -91446,7 +91446,7 @@
       "title": "Perhaps, Perhaps, Perhaps",
       "composer": "Farres-Davis",
       "style": "Latin",
-      "key": "E-",
+      "key": "Em",
       "bars": [
         {
           "chords": ""
@@ -91627,7 +91627,7 @@
       "title": "Petit Fleur",
       "composer": "Bechet Sidney",
       "style": "Medium Swing",
-      "key": "G-",
+      "key": "Gm",
       "bars": [
         {
           "chords": ""
@@ -91847,7 +91847,7 @@
       "title": "Phase Dance 1",
       "composer": "Metheny Pat",
       "style": "Even 8ths",
-      "key": "B-",
+      "key": "Bm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -92180,7 +92180,7 @@
       "title": "Pinocchio",
       "composer": "Shorter Wayne",
       "style": "Up Tempo Swing",
-      "key": "Eb-",
+      "key": "Ebm",
       "bars": [
         {
           "chords": ""
@@ -92661,7 +92661,7 @@
       "title": "Popsicle Toes",
       "composer": "Franks Michael",
       "style": "Medium Swing",
-      "key": "Eb-",
+      "key": "Ebm",
       "bars": [
         {
           "chords": ""
@@ -93287,7 +93287,7 @@
       "title": "Prism",
       "composer": "Jarrett Keith",
       "style": "Ballad",
-      "key": "G-",
+      "key": "Gm",
       "bars": [
         {
           "chords": ""
@@ -93896,7 +93896,7 @@
       "title": "Question And Answer",
       "composer": "Metheny Pat",
       "style": "Waltz",
-      "key": "D-",
+      "key": "Dm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -94572,7 +94572,7 @@
       "title": "Recado Bossa Nova",
       "composer": "Ferreira Djalma",
       "style": "Bossa Nova",
-      "key": "G-",
+      "key": "Gm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -94676,7 +94676,7 @@
       "title": "Recordame",
       "composer": "Henderson Joe",
       "style": "Bossa Nova",
-      "key": "A-",
+      "key": "Am",
       "bars": [
         {
           "chords": ""
@@ -94741,7 +94741,7 @@
       "title": "Red Clay",
       "composer": "Hubbard Freddie",
       "style": "Funk",
-      "key": "C-",
+      "key": "Cm",
       "bars": [
         {
           "time": "4/4",
@@ -95175,7 +95175,7 @@
       "title": "Road Song",
       "composer": "Montgomery Wes",
       "style": "Latin",
-      "key": "G-",
+      "key": "Gm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -95728,7 +95728,7 @@
       "title": "Round Midnight",
       "composer": "Monk Thelonious",
       "style": "Ballad",
-      "key": "Eb-",
+      "key": "Ebm",
       "bars": [
         {
           "chords": ""
@@ -96270,7 +96270,7 @@
       "title": "S.O.S.",
       "composer": "Montgomery Wes",
       "style": "Up Tempo Swing",
-      "key": "C-",
+      "key": "Cm",
       "bars": [
         {
           "chords": ""
@@ -96419,7 +96419,7 @@
       "title": "Saga Of Harrison Crabfeathers, The",
       "composer": "Kuhn Steve",
       "style": "Waltz",
-      "key": "E-",
+      "key": "Em",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -98006,7 +98006,7 @@
       "title": "Sea Journey",
       "composer": "Corea Chick",
       "style": "Latin",
-      "key": "A-",
+      "key": "Am",
       "bars": [
         {
           "chords": ""
@@ -98418,7 +98418,7 @@
       "title": "Segment",
       "composer": "Parker Charlie",
       "style": "Up Tempo Swing",
-      "key": "Bb-",
+      "key": "Bbm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -98805,7 +98805,7 @@
       "title": "Serenade To A Cuckoo",
       "composer": "Kirk Roland",
       "style": "Medium Swing",
-      "key": "F-",
+      "key": "Fm",
       "bars": [
         {
           "chords": ""
@@ -100007,7 +100007,7 @@
       "title": "Simone",
       "composer": "Foster Frank",
       "style": "Waltz",
-      "key": "D-",
+      "key": "Dm",
       "bars": [
         {
           "chords": ""
@@ -101732,7 +101732,7 @@
       "title": "Sno' Peas",
       "composer": "Markowitz Phil",
       "style": "Waltz",
-      "key": "Eb-",
+      "key": "Ebm",
       "bars": [
         {
           "rehearsalLetter": "i",
@@ -101841,7 +101841,7 @@
       "title": "So In Love",
       "composer": "Porter Cole",
       "style": "Up Tempo Swing",
-      "key": "F-",
+      "key": "Fm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -102347,7 +102347,7 @@
       "title": "So What",
       "composer": "Davis Miles",
       "style": "Up Tempo Swing",
-      "key": "D-",
+      "key": "Dm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -102468,7 +102468,7 @@
       "title": "Softly, As In A Morning Sunrise",
       "composer": "Romberg Sigmund",
       "style": "Medium Swing",
-      "key": "C-",
+      "key": "Cm",
       "bars": [
         {
           "chords": ""
@@ -102569,7 +102569,7 @@
       "title": "Solar",
       "composer": "Davis Miles",
       "style": "Medium Swing",
-      "key": "C-",
+      "key": "Cm",
       "bars": [
         {
           "chords": ""
@@ -103947,7 +103947,7 @@
       "title": "Song For My Father",
       "composer": "Silver Horace",
       "style": "Latin",
-      "key": "F-",
+      "key": "Fm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -104550,7 +104550,7 @@
       "title": "Soul Eyes",
       "composer": "Waldron Mal",
       "style": "Ballad",
-      "key": "C-",
+      "key": "Cm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -105070,7 +105070,7 @@
       "title": "Spain",
       "composer": "Corea Chick",
       "style": "Latin",
-      "key": "B-",
+      "key": "Bm",
       "bars": [
         {
           "chords": ""
@@ -105157,7 +105157,7 @@
       "title": "Speak Like A Child",
       "composer": "Hancock Herbie",
       "style": "Bossa Nova",
-      "key": "A-",
+      "key": "Am",
       "bars": [
         {
           "chords": ""
@@ -105425,7 +105425,7 @@
       "title": "Speak No Evil",
       "composer": "Shorter Wayne",
       "style": "Medium Swing",
-      "key": "C-",
+      "key": "Cm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -106718,7 +106718,7 @@
       "title": "Stolen Moments",
       "composer": "Nelson Oliver",
       "style": "Medium Swing",
-      "key": "C-",
+      "key": "Cm",
       "bars": [
         {
           "rehearsalLetter": "i",
@@ -107066,7 +107066,7 @@
       "title": "Straight Street",
       "composer": "Coltrane John",
       "style": "Up Tempo Swing",
-      "key": "Eb-",
+      "key": "Ebm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -107753,7 +107753,7 @@
       "title": "Strode Rode",
       "composer": "Rollins Sonny",
       "style": "Medium Up Swing",
-      "key": "F-",
+      "key": "Fm",
       "bars": [
         {
           "time": "4/4",
@@ -108303,7 +108303,7 @@
       "title": "Sugar",
       "composer": "Turrentine Stanley",
       "style": "Medium Swing",
-      "key": "C-",
+      "key": "Cm",
       "bars": [
         {
           "chords": ""
@@ -108460,7 +108460,7 @@
       "title": "Summer Knows, The 1",
       "composer": "Legrand Michel",
       "style": "Ballad",
-      "key": "F-",
+      "key": "Fm",
       "bars": [
         {
           "chords": ""
@@ -108705,7 +108705,7 @@
       "title": "Summertime",
       "composer": "Gershwin George",
       "style": "Slow Swing",
-      "key": "A-",
+      "key": "Am",
       "bars": [
         {
           "leftDoubleBarLine": "true",
@@ -108962,7 +108962,7 @@
       "title": "Sunny",
       "composer": "Hebb Bobby",
       "style": "Rock Pop",
-      "key": "A-",
+      "key": "Am",
       "bars": [
         {
           "chords": ""
@@ -109146,7 +109146,7 @@
       "title": "Sway",
       "composer": "Ruiz-Gimbel",
       "style": "Latin",
-      "key": "G-",
+      "key": "Gm",
       "bars": [
         {
           "chords": ""
@@ -109725,7 +109725,7 @@
       "title": "Sweetest Sounds, The",
       "composer": "Rodgers Richard",
       "style": "Medium Up Swing",
-      "key": "C-",
+      "key": "Cm",
       "bars": [
         {
           "time": "4/4",
@@ -109916,7 +109916,7 @@
       "title": "Take Five",
       "composer": "Desmond Paul",
       "style": "Medium Up Swing",
-      "key": "Eb-",
+      "key": "Ebm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -110335,7 +110335,7 @@
       "title": "Taste Of Honey, A",
       "composer": "Marlow-Scott",
       "style": "Waltz",
-      "key": "D-",
+      "key": "Dm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -110838,7 +110838,7 @@
       "title": "Tempus Fugit",
       "composer": "Powell Bud",
       "style": "Up Tempo Swing",
-      "key": "D-",
+      "key": "Dm",
       "bars": [
         {
           "chords": ""
@@ -114008,7 +114008,7 @@
       "title": "This Is New",
       "composer": "Weill Kurt",
       "style": "Ballad",
-      "key": "C-",
+      "key": "Cm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -114123,7 +114123,7 @@
       "title": "This Masquerade",
       "composer": "Russell Leon",
       "style": "Rock Pop",
-      "key": "F-",
+      "key": "Fm",
       "bars": [
         {
           "rehearsalLetter": "i",
@@ -114577,7 +114577,7 @@
       "title": "Thrill Is Gone, The",
       "composer": "Henderson Ray",
       "style": "Ballad",
-      "key": "C-",
+      "key": "Cm",
       "bars": [
         {
           "time": "4/4",
@@ -115225,7 +115225,7 @@
       "title": "Time Remembered",
       "composer": "Evans Bill",
       "style": "Ballad",
-      "key": "B-",
+      "key": "Bm",
       "bars": [
         {
           "chords": ""
@@ -115318,7 +115318,7 @@
       "title": "Tin Tin Deo",
       "composer": "Gillespie Dizzy",
       "style": "Latin",
-      "key": "G-",
+      "key": "Gm",
       "bars": [
         {
           "chords": ""
@@ -116776,7 +116776,7 @@
       "title": "Toys",
       "composer": "Hancock Herbie",
       "style": "Medium Swing",
-      "key": "D-",
+      "key": "Dm",
       "bars": [
         {
           "chords": ""
@@ -117565,7 +117565,7 @@
       "title": "Turn Out The Stars",
       "composer": "Evans Bill",
       "style": "Ballad",
-      "key": "A-",
+      "key": "Am",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -119415,7 +119415,7 @@
       "title": "Voyage",
       "composer": "Barron Kenny",
       "style": "Up Tempo Swing",
-      "key": "F-",
+      "key": "Fm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -120752,7 +120752,7 @@
       "title": "Wayne's Thang",
       "composer": "Garrett Kenny",
       "style": "Medium Up Swing",
-      "key": "E-",
+      "key": "Em",
       "bars": [
         {
           "chords": ""
@@ -120913,7 +120913,7 @@
       "title": "We Will Meet Again",
       "composer": "Evans Bill",
       "style": "Waltz",
-      "key": "C-",
+      "key": "Cm",
       "bars": [
         {
           "chords": ""
@@ -122156,7 +122156,7 @@
       "title": "What Are You Doing The Rest Of Your Life?",
       "composer": "Legrand Michel",
       "style": "Ballad",
-      "key": "A-",
+      "key": "Am",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -123689,7 +123689,7 @@
       "title": "Whisper Not",
       "composer": "Golson Benny",
       "style": "Medium Swing",
-      "key": "C-",
+      "key": "Cm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -124117,7 +124117,7 @@
       "title": "Why Don't You Do Right?",
       "composer": "McCoy Kansas-Joe",
       "style": "Medium Swing",
-      "key": "D-",
+      "key": "Dm",
       "bars": [
         {
           "time": "4/4",
@@ -124510,7 +124510,7 @@
       "title": "Windows",
       "composer": "Corea Chick",
       "style": "Waltz",
-      "key": "B-",
+      "key": "Bm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -124694,7 +124694,7 @@
       "title": "Witch Hunt",
       "composer": "Shorter Wayne",
       "style": "Slow Swing",
-      "key": "C-",
+      "key": "Cm",
       "bars": [
         {
           "leftDoubleBarLine": "true",
@@ -125788,7 +125788,7 @@
       "title": "Work Song",
       "composer": "Adderley Nat",
       "style": "Medium Up Swing",
-      "key": "F-",
+      "key": "Fm",
       "bars": [
         {
           "chords": ""
@@ -126402,7 +126402,7 @@
       "title": "Yesterdays",
       "composer": "Kern Jerome",
       "style": "Medium Up Swing",
-      "key": "D-",
+      "key": "Dm",
       "bars": [
         {
           "chords": ""
@@ -126465,7 +126465,7 @@
       "title": "You And The Night And The Music",
       "composer": "Schwartz Arthur",
       "style": "Medium Up Swing",
-      "key": "C-",
+      "key": "Cm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -127108,7 +127108,7 @@
       "title": "You Don't Know What Love Is",
       "composer": "Raye-DePaul",
       "style": "Ballad",
-      "key": "F-",
+      "key": "Fm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -127588,7 +127588,7 @@
       "title": "You Must Believe In Spring",
       "composer": "Legrand Michel",
       "style": "Ballad",
-      "key": "B-",
+      "key": "Bm",
       "bars": [
         {
           "rehearsalLetter": "A",
@@ -128025,7 +128025,7 @@
       "title": "You Won't Forget Me",
       "composer": "Goell-Spielman",
       "style": "Ballad",
-      "key": "Bb-",
+      "key": "Bbm",
       "bars": [
         {
           "chords": ""
@@ -128146,7 +128146,7 @@
       "title": "You'd Be So Nice To Come Home To",
       "composer": "Porter Cole",
       "style": "Medium Up Swing",
-      "key": "A-",
+      "key": "Am",
       "bars": [
         {
           "leftDoubleBarLine": "true",
@@ -129550,7 +129550,7 @@
       "title": "Zingaro (Retrato Em Branco E Preto)",
       "composer": "Jobim Antonio-Carlos",
       "style": "Bossa Nova",
-      "key": "G-",
+      "key": "Gm",
       "bars": [
         {
           "rehearsalLetter": "A",

@@ -97,7 +97,7 @@ function buildDetailPage() {
 			/*if(currentSong.bars[j].chords.length % 2) {
 				currentSong.bars[j].chords = " " + currentSong.bars[j].chords;
 			} else {*/
-				currentSong.bars[j].chords += ".";
+				currentSong.bars[j].chords += "_";
 			//}
 		}
 		console.log(currentSong.bars[j].chords);
@@ -133,9 +133,11 @@ function getSongByTitle(title, res, req) {
         }
 	
         var songsCollection = db.collection('songs');
-		var keyword = "^" + title + "$";
+		var keyword = "^" + title.replace(/[#-.]|[[-^]|[?|{}]/g, '\\$&') + "$";
 		
 		var query = {title: new RegExp(keyword, "i")};
+		//new RegExp(test.replace(/[#-.]|[[-^]|[?|{}]/g, '\\$&'));
+		console.log(query);
 		songsCollection.find(query).toArray(function(err, queryResults){
 			if(err) {
 		    	throw err;
